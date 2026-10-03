@@ -11,9 +11,8 @@ and release notes are retained unchanged.
 - GitHub repository: <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>
 - GitHub release: <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation/releases/tag/v1.0.3>
 - Git tag `v1.0.3` dereferences to commit `763755aebd288a2e4fd9a523d0c446d0cf0dd624`.
-- GitHub `main` currently points to post-release verification commit
-  `d336ced0563df0275f6b9c98431d961decba74ab`; the tagged release tree remains
-  immutable.
+- GitHub `main` contains post-release verification records; the tagged release
+  tree remains immutable.
 - GitHub asset: `submission_package_v1.0.3.zip`, 4,132,213 bytes,
   SHA-256 `4c15cd3907b1bed0988021ffc6ead620be4c1276a423b917df3f6e089c764fa9`.
 
