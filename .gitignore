@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+checkpoints/
+logs/
+wandb/
+
+# Local LaTeX build products and rendered QA pages
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+qa_*.png
+current_pdf.txt
+
+# Stale external-run bundles and machine-specific CUDA logs
+cuda_phase2_bundle.zip
+phase2_cuda_outputs.tgz
+refine-logs/cuda-runs/
+experiments/*_cuda_*.json
+experiments/*_full_seed*.json
+refine-logs/*CUDA*
+
+# Local/private release archives and temporary downloads
+submission_package_*.zip
+dcn_guide_live_attempt.html

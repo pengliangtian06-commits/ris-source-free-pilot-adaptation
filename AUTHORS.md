@@ -14,7 +14,7 @@ excluded from the public repository.
    Telecommunications Century College, Beijing, China. Public contact supplied
    for the project: `zhangchangjiang@ccbupt.cn`.
 
-The corresponding-author designation, final email choice, funding statement and
-CRediT roles must be confirmed by all authors before journal submission. The
-repository therefore records the supplied attribution without treating those
-submission fields as independently verified metadata.
+Changjiang Zhang is the corresponding author for the manuscript
+(`zhangchangjiang@ccbupt.cn`). The authors report no specific grant funding and
+no additional acknowledgements. The CRediT roles used in the v1.0.3 submission
+materials are recorded in `submission_declarations_v1.0.3.md`.

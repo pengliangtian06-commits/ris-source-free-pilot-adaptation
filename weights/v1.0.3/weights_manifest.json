@@ -1,0 +1,349 @@
+{
+  "schema": "ris-adaptation-weights/1.0",
+  "release": "v1.0.3",
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "source": "experiments/cloud_ris_adapter_lightning.py",
+  "device": "cpu",
+  "seeds": [
+    20261002,
+    20261003,
+    20261004
+  ],
+  "canonical_shifts": [
+    {
+      "angle_shift": 0.04,
+      "delay_scale": 1.2
+    },
+    {
+      "angle_shift": 0.08,
+      "delay_scale": 1.4
+    },
+    {
+      "angle_shift": 0.12,
+      "delay_scale": 1.6
+    },
+    {
+      "angle_shift": 0.18,
+      "delay_scale": 2.0
+    }
+  ],
+  "target_labels_used_for_adaptation": false,
+  "entries": [
+    {
+      "file": "source_estimator_seed20261002.pt",
+      "sha256": "33b5dc31085a9a0f5a567436ce8c31eee8f20dcf0cc8b18c62664bc8da4782b0",
+      "model_type": "source_estimator",
+      "seed": 20261002,
+      "device_export": "cpu",
+      "parameter_count": 115328,
+      "architecture": "SourceEstimator(input=64, hidden=[256,256], output=128, GELU)",
+      "source_training": {
+        "samples": 4096,
+        "epochs": 12,
+        "batch_size": 128,
+        "optimizer": "AdamW",
+        "learning_rate": 0.002,
+        "weight_decay": 1e-05
+      }
+    },
+    {
+      "file": "adapter_seed20261002_angle0p04_delay1p2.pt",
+      "sha256": "bb32541c8731d512afb08eb8555cb30b52cbf8dbabc1441321704f3d7f8a6973",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261002,
+      "angle_shift": 0.04,
+      "delay_scale": 1.2,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261002_angle0p08_delay1p4.pt",
+      "sha256": "b8513901f885571fc858c73eda11efb4f966ef2a8a9bcc652ba7d3a8c0b37602",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261002,
+      "angle_shift": 0.08,
+      "delay_scale": 1.4,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261002_angle0p12_delay1p6.pt",
+      "sha256": "efa4cee2bdab4d28d163a00bb8de835071202e0a5cfce9e8825b018f4830d3d2",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261002,
+      "angle_shift": 0.12,
+      "delay_scale": 1.6,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261002_angle0p18_delay2.pt",
+      "sha256": "19c16fadba7b9ecb5fd85ccea710d0a067da93daf8113ad3919e5f0a83f8fc6c",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261002,
+      "angle_shift": 0.18,
+      "delay_scale": 2.0,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "source_estimator_seed20261003.pt",
+      "sha256": "843bf10b477cd90cb0bd324c3a5eeeca3bb69bcac94ae0e698b44a3c0bc8d3c2",
+      "model_type": "source_estimator",
+      "seed": 20261003,
+      "device_export": "cpu",
+      "parameter_count": 115328,
+      "architecture": "SourceEstimator(input=64, hidden=[256,256], output=128, GELU)",
+      "source_training": {
+        "samples": 4096,
+        "epochs": 12,
+        "batch_size": 128,
+        "optimizer": "AdamW",
+        "learning_rate": 0.002,
+        "weight_decay": 1e-05
+      }
+    },
+    {
+      "file": "adapter_seed20261003_angle0p04_delay1p2.pt",
+      "sha256": "ea986c394541d5dafe1b4f7a2fc16fb335d5800019e4d0851387d761ec1cc19e",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261003,
+      "angle_shift": 0.04,
+      "delay_scale": 1.2,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261003_angle0p08_delay1p4.pt",
+      "sha256": "52d222ec465a38a2f1b70f0e7f9feb9ae97df6422ec5b0996a63d39b6ff4e6e9",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261003,
+      "angle_shift": 0.08,
+      "delay_scale": 1.4,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261003_angle0p12_delay1p6.pt",
+      "sha256": "6459e6c54f166f7f3ff97658f10a4d313785624909997d825233d00511fa5030",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261003,
+      "angle_shift": 0.12,
+      "delay_scale": 1.6,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261003_angle0p18_delay2.pt",
+      "sha256": "3d2a7ff9547382c52aed19d42d7ddab7d3a4898354a05f73be8390777d774ee0",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261003,
+      "angle_shift": 0.18,
+      "delay_scale": 2.0,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "source_estimator_seed20261004.pt",
+      "sha256": "39f10f62cbddf7628c4f4be3ef92732d638fe6398202e683a012c275f34cda71",
+      "model_type": "source_estimator",
+      "seed": 20261004,
+      "device_export": "cpu",
+      "parameter_count": 115328,
+      "architecture": "SourceEstimator(input=64, hidden=[256,256], output=128, GELU)",
+      "source_training": {
+        "samples": 4096,
+        "epochs": 12,
+        "batch_size": 128,
+        "optimizer": "AdamW",
+        "learning_rate": 0.002,
+        "weight_decay": 1e-05
+      }
+    },
+    {
+      "file": "adapter_seed20261004_angle0p04_delay1p2.pt",
+      "sha256": "d3c180414fef0cb1d4f64eff276d00f65aee05e93384164cc0e6defcddeda48b",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261004,
+      "angle_shift": 0.04,
+      "delay_scale": 1.2,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261004_angle0p08_delay1p4.pt",
+      "sha256": "3d211bbcff69e3d6d0abaa8ab86c5d9873cf05eb5c9cec9623a8348d8f79f887",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261004,
+      "angle_shift": 0.08,
+      "delay_scale": 1.4,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261004_angle0p12_delay1p6.pt",
+      "sha256": "a28e3a4ebd06a0795382bf51901a7212d7e0984485201c03875912e781288dac",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261004,
+      "angle_shift": 0.12,
+      "delay_scale": 1.6,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    },
+    {
+      "file": "adapter_seed20261004_angle0p18_delay2.pt",
+      "sha256": "434874b3027e91426ceeaa99f051b5354bd719333507acc1cfca77d8a0d8dd0f",
+      "model_type": "canonical_adapter_final_state",
+      "seed": 20261004,
+      "angle_shift": 0.18,
+      "delay_scale": 2.0,
+      "device_export": "cpu",
+      "parameter_count": 16576,
+      "architecture": "LightweightAdapter(width=64, residual, GELU)",
+      "target_adaptation": {
+        "support_samples": 512,
+        "prequential_batches": 4,
+        "batch_size": 128,
+        "steps_per_batch": 10,
+        "learning_rate": 0.001,
+        "smooth_weight": 0.003,
+        "prior_weight": 0.1,
+        "target_labels_used_for_adaptation": false,
+        "state_semantics": "final adapter state after the four canonical batches"
+      }
+    }
+  ]
+}

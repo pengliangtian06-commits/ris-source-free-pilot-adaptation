@@ -1,4 +1,4 @@
-"""Create a credential-scanned R032 reproducibility and submission bundle."""
+"""Create a credential-scanned v1.0.3 reproducibility and submission bundle."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE_VERSION = os.environ.get("RELEASE_VERSION", "v1.0.2")
+RELEASE_VERSION = os.environ.get("RELEASE_VERSION", "v1.0.3")
 PACKAGE = ROOT / f"submission_package_{RELEASE_VERSION}.zip"
 MANIFEST = ROOT / f"submission_package_manifest_{RELEASE_VERSION}.json"
 
@@ -22,16 +22,16 @@ ALLOWLIST = [
     "LICENSE-CC-BY-4.0.txt",
     "PUBLIC_RELEASE_NOTES_v1.0.0.md",
     "PUBLIC_RELEASE_NOTES_v1.0.2.md",
+    "PUBLIC_RELEASE_NOTES_v1.0.3.md",
     "AUTHORS.md",
     "CITATION.cff",
     "paper-draft-r025.tex",
     "references.bib",
-    "REPRODUCTION_README_R032.md",
+    "REPRODUCTION_README_v1.0.3.md",
     "DATA_SOURCES.md",
-    "DCN暂定投稿计划_R032.md",
-    "DCN暂定投稿计划_R033.md",
-    "DCN投稿门槛核验_R034.md",
-    "dcn_format_validation_R034.txt",
+    "Physical Communication投稿计划_v1.0.3.md",
+    "Physical Communication投稿门槛核验_v1.0.3.md",
+    "submission_checklist_physical_communication_v1.0.3.md",
     "nature_workflow_audit_R032.md",
     "nature_workflow_audit_R033.md",
     "claim_evidence_map_R032.md",
@@ -66,6 +66,8 @@ ALLOWLIST = [
     "experiments/benchmark_adaptation_cost.py",
     "experiments/export_latex_tables.py",
     "experiments/create_submission_package.py",
+    "experiments/export_model_weights.py",
+    "experiments/verify_model_weights.py",
     "experiments/plot_paper_figures.py",
     "experiments/related_work_matrix.json",
     "refine-logs/FINAL_NOVELTY_PASS_20261002.json",
@@ -122,9 +124,33 @@ ALLOWLIST = [
     "figures/fig5_robustness.tiff",
     "figures/fig5_robustness.alignment.json",
     "figures/fig5_robustness.collision.json",
-    "submission_declarations_r029.md",
-    "cover_letter_dcn_r029.md",
-    "venue_final_verification_form_r029.md",
+    "submission_declarations_v1.0.3.md",
+    "cover_letter_physical_communication_v1.0.3.md",
+    "highlights_physical_communication_v1.0.3.md",
+    "graphical_abstract_brief_v1.0.3.md",
+    "figures/graphical_abstract_v1.0.3.py",
+    "figures/graphical_abstract_v1.0.3.pdf",
+    "figures/graphical_abstract_v1.0.3.svg",
+    "figures/graphical_abstract_v1.0.3.png",
+    "figures/graphical_abstract_v1.0.3.tiff",
+    "figures/graphical_abstract_v1.0.3.collision.json",
+    "figures/graphical_abstract_v1.0.3.alignment.json",
+    "weights/v1.0.3/weights_manifest.json",
+    "weights/v1.0.3/source_estimator_seed20261002.pt",
+    "weights/v1.0.3/source_estimator_seed20261003.pt",
+    "weights/v1.0.3/source_estimator_seed20261004.pt",
+    "weights/v1.0.3/adapter_seed20261002_angle0p04_delay1p2.pt",
+    "weights/v1.0.3/adapter_seed20261002_angle0p08_delay1p4.pt",
+    "weights/v1.0.3/adapter_seed20261002_angle0p12_delay1p6.pt",
+    "weights/v1.0.3/adapter_seed20261002_angle0p18_delay2.pt",
+    "weights/v1.0.3/adapter_seed20261003_angle0p04_delay1p2.pt",
+    "weights/v1.0.3/adapter_seed20261003_angle0p08_delay1p4.pt",
+    "weights/v1.0.3/adapter_seed20261003_angle0p12_delay1p6.pt",
+    "weights/v1.0.3/adapter_seed20261003_angle0p18_delay2.pt",
+    "weights/v1.0.3/adapter_seed20261004_angle0p04_delay1p2.pt",
+    "weights/v1.0.3/adapter_seed20261004_angle0p08_delay1p4.pt",
+    "weights/v1.0.3/adapter_seed20261004_angle0p12_delay1p6.pt",
+    "weights/v1.0.3/adapter_seed20261004_angle0p18_delay2.pt",
 ]
 
 SECRET_PATTERNS = [
@@ -132,6 +158,8 @@ SECRET_PATTERNS = [
     re.compile("192" + r"\.168\.10\.46"),
     re.compile(r"\bplt@" + "192" + r"\.168\.10\.46\b", re.IGNORECASE),
     re.compile(r"password\s*[:=]\s*\S+", re.IGNORECASE),
+    re.compile(r"(?:C:|D:)[\\/]Users[\\/][^\s<>]+", re.IGNORECASE),
+    re.compile(r"(?:ssh|scp)\s+[^\s]+@[^\s]+", re.IGNORECASE),
 ]
 
 
@@ -177,18 +205,19 @@ def main() -> None:
             "raw CUDA logs and stale CUDA artifacts not regenerated in the local CPU environment",
             "temporary LaTeX build products",
             "institution-authenticated JCR/CAS screenshots not supplied as authoritative records",
+            "full-model weights that depend on a target support block",
         ],
         "credential_scan": {"passed": True, "patterns_checked": len(SECRET_PATTERNS)},
         "external_fields_remaining": [
-            "corresponding-author designation and final contact choice",
-            "funding statement and author-confirmed CRediT roles",
-            "institutional journal classification and selected venue",
-            "final DCN submission-system fields and APC decision",
+            "institutional JCR/MJL and CAS evidence for the selected venue",
+            "live Physical Communication submission-system fields and APC decision",
+            "Zenodo version DOI for v1.0.3 until the tagged release is archived",
         ],
         "local_device_summary": {
             "canonical_shift": "cpu",
             "capacity": "cpu",
             "adaptation_cost": "cpu",
+            "model_weights": "cpu_state_dict",
             "cuda_available_for_r032_rerun": False,
         },
     }
