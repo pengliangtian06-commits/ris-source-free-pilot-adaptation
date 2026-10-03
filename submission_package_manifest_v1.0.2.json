@@ -5,8 +5,8 @@
   "allowlisted_files": [
     {
       "path": "README.md",
-      "bytes": 3577,
-      "sha256": "2bbe74bcd3f4f425f68f977a28e3a1e2159df348a550a7cae2747d8e661ee971"
+      "bytes": 3718,
+      "sha256": "fe78e823d93473cb85040e85e846b9bf690583246c6648cece14bd863431ba37"
     },
     {
       "path": "LICENSE",
