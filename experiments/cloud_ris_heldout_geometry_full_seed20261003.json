@@ -1,0 +1,192 @@
+{
+  "experiment": "cloud_ris_heldout_target_block",
+  "mode": "full",
+  "device": "cpu",
+  "seed": 20261003,
+  "source_validation_nmse": 0.47771114110946655,
+  "results": [
+    {
+      "angle_shift": 0.08,
+      "delay_scale": 1.4,
+      "support_count": 512,
+      "evaluation_count": 512,
+      "support_and_evaluation_seed_blocks_are_disjoint": true,
+      "target_labels_used_for_adaptation": false,
+      "nmse": {
+        "ls": 0.5157909989356995,
+        "frozen": 0.4904107451438904,
+        "adapted": 0.48464667797088623,
+        "no_physics": 0.484646737575531
+      },
+      "paired_statistics": {
+        "adapted_minus_frozen": {
+          "mean_difference": -0.005764046683907509,
+          "median_difference": -0.003996685147285461,
+          "bootstrap_ci95": [
+            -0.00797731117272633,
+            -0.003404705653520069
+          ],
+          "wilcoxon_p_value": 1.8569911982020297e-12
+        },
+        "adapted_minus_no_physics": {
+          "mean_difference": -3.323657438158989e-08,
+          "median_difference": 5.3569674491882324e-05,
+          "bootstrap_ci95": [
+            -0.00025088689289987087,
+            0.0002591653435956685
+          ],
+          "wilcoxon_p_value": 0.9891610271761916
+        },
+        "adapted_minus_ls": {
+          "mean_difference": -0.031144306325586513,
+          "median_difference": -0.032950326800346375,
+          "bootstrap_ci95": [
+            -0.038634092977736144,
+            -0.023759117382724074
+          ],
+          "wilcoxon_p_value": 3.503957509798752e-18
+        }
+      },
+      "communication": {
+        "ls": {
+          "ber": 0.00439453125,
+          "spectral_efficiency_bps_hz": 5.507683753967285
+        },
+        "frozen": {
+          "ber": 0.02593994140625,
+          "spectral_efficiency_bps_hz": 5.614654541015625
+        },
+        "adapted": {
+          "ber": 0.0234375,
+          "spectral_efficiency_bps_hz": 5.623667240142822
+        },
+        "no_physics": {
+          "ber": 0.02276611328125,
+          "spectral_efficiency_bps_hz": 5.623701095581055
+        }
+      }
+    },
+    {
+      "angle_shift": 0.12,
+      "delay_scale": 1.6,
+      "support_count": 512,
+      "evaluation_count": 512,
+      "support_and_evaluation_seed_blocks_are_disjoint": true,
+      "target_labels_used_for_adaptation": false,
+      "nmse": {
+        "ls": 0.517147958278656,
+        "frozen": 0.5244067311286926,
+        "adapted": 0.5193166136741638,
+        "no_physics": 0.5188989043235779
+      },
+      "paired_statistics": {
+        "adapted_minus_frozen": {
+          "mean_difference": -0.0050901306385640055,
+          "median_difference": -0.003971680998802185,
+          "bootstrap_ci95": [
+            -0.006955961755738827,
+            -0.003158061474823626
+          ],
+          "wilcoxon_p_value": 1.1851970993547938e-08
+        },
+        "adapted_minus_no_physics": {
+          "mean_difference": 0.00041772174881771207,
+          "median_difference": 2.1338462829589844e-05,
+          "bootstrap_ci95": [
+            7.043141085887328e-05,
+            0.0007656929170479997
+          ],
+          "wilcoxon_p_value": 0.12820271651382373
+        },
+        "adapted_minus_ls": {
+          "mean_difference": 0.002168621984310448,
+          "median_difference": -0.011686593294143677,
+          "bootstrap_ci95": [
+            -0.0064981878073012925,
+            0.011054796921234811
+          ],
+          "wilcoxon_p_value": 0.09364314601880994
+        }
+      },
+      "communication": {
+        "ls": {
+          "ber": 0.00531005859375,
+          "spectral_efficiency_bps_hz": 5.493968486785889
+        },
+        "frozen": {
+          "ber": 0.03204345703125,
+          "spectral_efficiency_bps_hz": 5.5352911949157715
+        },
+        "adapted": {
+          "ber": 0.02996826171875,
+          "spectral_efficiency_bps_hz": 5.5417070388793945
+        },
+        "no_physics": {
+          "ber": 0.0301513671875,
+          "spectral_efficiency_bps_hz": 5.5419392585754395
+        }
+      }
+    },
+    {
+      "angle_shift": 0.18,
+      "delay_scale": 2.0,
+      "support_count": 512,
+      "evaluation_count": 512,
+      "support_and_evaluation_seed_blocks_are_disjoint": true,
+      "target_labels_used_for_adaptation": false,
+      "nmse": {
+        "ls": 0.5176500082015991,
+        "frozen": 0.5625183582305908,
+        "adapted": 0.5531296730041504,
+        "no_physics": 0.5529406070709229
+      },
+      "paired_statistics": {
+        "adapted_minus_frozen": {
+          "mean_difference": -0.009388616628712043,
+          "median_difference": -0.006825476884841919,
+          "bootstrap_ci95": [
+            -0.01113170312382863,
+            -0.0076161339129612315
+          ],
+          "wilcoxon_p_value": 1.5646593202707922e-25
+        },
+        "adapted_minus_no_physics": {
+          "mean_difference": 0.0001890922139864415,
+          "median_difference": 0.00015811622142791748,
+          "bootstrap_ci95": [
+            -0.00016298934424412436,
+            0.0005507353263965342
+          ],
+          "wilcoxon_p_value": 0.3903440918028991
+        },
+        "adapted_minus_ls": {
+          "mean_difference": 0.03547963991877623,
+          "median_difference": 0.008206814527511597,
+          "bootstrap_ci95": [
+            0.024928016500052764,
+            0.04603276041671051
+          ],
+          "wilcoxon_p_value": 6.645540590693758e-05
+        }
+      },
+      "communication": {
+        "ls": {
+          "ber": 0.00555419921875,
+          "spectral_efficiency_bps_hz": 5.475876331329346
+        },
+        "frozen": {
+          "ber": 0.035888671875,
+          "spectral_efficiency_bps_hz": 5.421319007873535
+        },
+        "adapted": {
+          "ber": 0.03314208984375,
+          "spectral_efficiency_bps_hz": 5.439556121826172
+        },
+        "no_physics": {
+          "ber": 0.03338623046875,
+          "spectral_efficiency_bps_hz": 5.440049648284912
+        }
+      }
+    }
+  ]
+}

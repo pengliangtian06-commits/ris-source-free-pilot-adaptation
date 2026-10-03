@@ -1,0 +1,14 @@
+# Cloud-GPU environment for R003-R009.
+# Install with a CUDA-compatible PyTorch command first, then:
+#   python -m pip install -r requirements-cloud.txt
+numpy>=2.1
+scipy>=1.14
+pandas>=2.2
+matplotlib>=3.9
+scikit-learn>=1.7
+lightning>=2.6
+torchmetrics>=1.6
+tqdm>=4.66
+pyyaml>=6.0
+# Optional experiment tracking:
+# wandb>=0.21

@@ -1,0 +1,36 @@
+{
+  "experiment": "cloud_ris_physics_preregistered_cpu_3seed_summary",
+  "devices": [
+    "cpu"
+  ],
+  "seeds": [
+    20261002,
+    20261003,
+    20261004
+  ],
+  "primary_outcome": {
+    "sample_count": 3072,
+    "delay_tail_minus_no_physics_mean": 0.0008845331079404181,
+    "bootstrap_ci95": [
+      0.0007102972481031125,
+      0.001077769900439307
+    ],
+    "passes_gate": false
+  },
+  "per_shift": [
+    {
+      "angle_shift": 0.08,
+      "delay_scale": 1.4,
+      "no_physics_nmse_mean": 0.4831663866837819,
+      "first_difference_nmse_mean": 0.4830496509869893,
+      "delay_tail_nmse_mean": 0.4834015965461731
+    },
+    {
+      "angle_shift": 0.18,
+      "delay_scale": 2.0,
+      "no_physics_nmse_mean": 0.5572711825370789,
+      "first_difference_nmse_mean": 0.5580747326215109,
+      "delay_tail_nmse_mean": 0.5588050882021586
+    }
+  ]
+}

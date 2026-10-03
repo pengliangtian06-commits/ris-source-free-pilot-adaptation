@@ -1,0 +1,39 @@
+{
+  "experiment": "ris_label_free_data_consistency_adapter_smoke",
+  "config": {
+    "train_samples": 2000,
+    "target_samples": 100,
+    "pilot_count": 2,
+    "snr_db": 15.0
+  },
+  "results": [
+    {
+      "regularization": 0.0,
+      "frozen_mlp_nmse_mean": 0.5320978514584886,
+      "projected_nmse_mean": 0.5088475683279365,
+      "projected_nmse_std": 0.24396664994833606,
+      "ls_nmse_mean": 0.5061078275624514
+    },
+    {
+      "regularization": 0.01,
+      "frozen_mlp_nmse_mean": 0.5320978514584886,
+      "projected_nmse_mean": 0.5085747084128085,
+      "projected_nmse_std": 0.24403474912778286,
+      "ls_nmse_mean": 0.5061078275624514
+    },
+    {
+      "regularization": 0.1,
+      "frozen_mlp_nmse_mean": 0.5320978514584886,
+      "projected_nmse_mean": 0.5067201373807908,
+      "projected_nmse_std": 0.24452254790964237,
+      "ls_nmse_mean": 0.5061078275624514
+    },
+    {
+      "regularization": 1.0,
+      "frozen_mlp_nmse_mean": 0.5320978514584886,
+      "projected_nmse_mean": 0.5076434034171952,
+      "projected_nmse_std": 0.2451561472361974,
+      "ls_nmse_mean": 0.5061078275624514
+    }
+  ]
+}

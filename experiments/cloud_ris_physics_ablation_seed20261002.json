@@ -1,0 +1,95 @@
+{
+  "experiment": "cloud_ris_physics_ablation",
+  "device": "cpu",
+  "seed": 20261002,
+  "target_labels_used_for_adaptation": false,
+  "source_validation_nmse": 0.47751203179359436,
+  "results": [
+    {
+      "angle_shift": 0.08,
+      "delay_scale": 1.4,
+      "nmse": {
+        "frozen": 0.48809269070625305,
+        "full_physics": 0.48289579153060913,
+        "no_physics": 0.48235654830932617
+      },
+      "paired_statistics": {
+        "full_minus_no_physics": {
+          "mean_difference": 0.0005392947641666979,
+          "median_difference": 0.0003253519535064697,
+          "bootstrap_ci95": [
+            -0.00010338200736441648,
+            0.0011591896327445284
+          ],
+          "wilcoxon_p_value": 0.05085928676093259
+        },
+        "full_minus_frozen": {
+          "mean_difference": -0.005196858226554468,
+          "median_difference": -0.004201963543891907,
+          "bootstrap_ci95": [
+            -0.007520641092560254,
+            -0.0029480849472747674
+          ],
+          "wilcoxon_p_value": 1.5878138247245433e-06
+        }
+      },
+      "communication": {
+        "full_physics": {
+          "ber": 0.0203857421875,
+          "spectral_efficiency_bps_hz": 5.612015247344971
+        },
+        "no_physics": {
+          "ber": 0.02099609375,
+          "spectral_efficiency_bps_hz": 5.612881660461426
+        }
+      },
+      "adapter_parameters": {
+        "full_physics": 16576,
+        "no_physics": 16576
+      }
+    },
+    {
+      "angle_shift": 0.18,
+      "delay_scale": 2.0,
+      "nmse": {
+        "frozen": 0.5476291179656982,
+        "full_physics": 0.5299717783927917,
+        "no_physics": 0.5298402905464172
+      },
+      "paired_statistics": {
+        "full_minus_no_physics": {
+          "mean_difference": 0.00013154733460396528,
+          "median_difference": 1.3396143913269043e-05,
+          "bootstrap_ci95": [
+            -0.0005599412528681569,
+            0.0008347786504600659
+          ],
+          "wilcoxon_p_value": 0.7212457897467457
+        },
+        "full_minus_frozen": {
+          "mean_difference": -0.017657290649367496,
+          "median_difference": -0.011095702648162842,
+          "bootstrap_ci95": [
+            -0.02099343451191089,
+            -0.014839156836387701
+          ],
+          "wilcoxon_p_value": 1.1814129182989622e-31
+        }
+      },
+      "communication": {
+        "full_physics": {
+          "ber": 0.03009033203125,
+          "spectral_efficiency_bps_hz": 5.48568058013916
+        },
+        "no_physics": {
+          "ber": 0.0306396484375,
+          "spectral_efficiency_bps_hz": 5.485506057739258
+        }
+      },
+      "adapter_parameters": {
+        "full_physics": 16576,
+        "no_physics": 16576
+      }
+    }
+  ]
+}

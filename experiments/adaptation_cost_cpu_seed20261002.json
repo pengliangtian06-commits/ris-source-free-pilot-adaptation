@@ -1,0 +1,26 @@
+{
+  "experiment": "adaptation_cost_benchmark",
+  "seed": 20261002,
+  "device": "cpu",
+  "support_count": 512,
+  "steps": 10,
+  "repeats": 3,
+  "target_labels_used_for_adaptation": false,
+  "parameters": {
+    "adapter_only": 16576,
+    "full_model": 115328
+  },
+  "wall_clock_seconds": {
+    "adapter_only": [
+      0.062007399999856716,
+      0.044364699999277946,
+      0.041819000001851236
+    ],
+    "full_model": [
+      0.07549099999960163,
+      0.06078400000114925,
+      0.05893079999805195
+    ]
+  },
+  "peak_cuda_memory_bytes": null
+}

@@ -1,0 +1,51 @@
+{
+  "experiment": "ris_sparse_dictionary_ls_vs_omp_smoke",
+  "config": {
+    "subcarriers": 16,
+    "tx_antennas": 8,
+    "dictionary_atoms": 16,
+    "paths": 3
+  },
+  "results": [
+    {
+      "pilot_count": 2,
+      "snr_db": 15.0,
+      "ls_nmse_mean": 0.7519409106106474,
+      "ls_nmse_std": 0.11384197426928033,
+      "omp_nmse_mean": 1.1714828825332306,
+      "omp_nmse_std": 0.302745206257505
+    },
+    {
+      "pilot_count": 3,
+      "snr_db": 15.0,
+      "ls_nmse_mean": 0.648763160279547,
+      "ls_nmse_std": 0.11631623668433982,
+      "omp_nmse_mean": 1.0113832073029312,
+      "omp_nmse_std": 0.3424379199714376
+    },
+    {
+      "pilot_count": 4,
+      "snr_db": 15.0,
+      "ls_nmse_mean": 0.5014742170769547,
+      "ls_nmse_std": 0.14112525732823228,
+      "omp_nmse_mean": 0.5726145290709648,
+      "omp_nmse_std": 0.3811271527503819
+    },
+    {
+      "pilot_count": 5,
+      "snr_db": 15.0,
+      "ls_nmse_mean": 0.391616472342326,
+      "ls_nmse_std": 0.14341580652093394,
+      "omp_nmse_mean": 0.4219351082687631,
+      "omp_nmse_std": 0.29580961648055387
+    },
+    {
+      "pilot_count": 6,
+      "snr_db": 15.0,
+      "ls_nmse_mean": 0.27588670302271623,
+      "ls_nmse_std": 0.12096021717395382,
+      "omp_nmse_mean": 0.2007324384325143,
+      "omp_nmse_std": 0.17453011796005696
+    }
+  ]
+}

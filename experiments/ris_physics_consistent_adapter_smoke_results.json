@@ -1,0 +1,284 @@
+{
+  "experiment": "ris_physics_consistent_online_adapter_smoke",
+  "protocol": {
+    "source_train_samples": 2000,
+    "target_samples_per_shift": 100,
+    "pilot_count": 2,
+    "snr_db": 15.0,
+    "target_labels_used_for_adaptation": false,
+    "adapter_objective": "pilot residual + low-delay consistency correction penalty",
+    "bootstrap_draws": 5000
+  },
+  "results": [
+    {
+      "angle_shift": 0.0,
+      "delay_max": 0.2,
+      "sample_count": 100,
+      "nmse_mean": {
+        "ls": 0.5515378097766019,
+        "frozen_mlp": 0.5345419597022115,
+        "fixed_projection": 0.5353244861915218,
+        "physics_consistent_adapter": 0.5281308490266994,
+        "no_wideband_prior_control": 0.5311401805952534
+      },
+      "nmse_std": {
+        "ls": 0.16448036553540685,
+        "frozen_mlp": 0.2610661384103438,
+        "fixed_projection": 0.2581599343191074,
+        "physics_consistent_adapter": 0.2599197442411928,
+        "no_wideband_prior_control": 0.25950343128453396
+      },
+      "paired_difference_adapter_minus_frozen": {
+        "mean_difference": -0.0064111106755121395,
+        "median_difference": -0.004966880873131241,
+        "std_difference": 0.007060577299139063,
+        "bootstrap_ci95": [
+          -0.007973945445714328,
+          -0.005168058636662316
+        ],
+        "wilcoxon_statistic": 17.0,
+        "wilcoxon_p_value": 6.504110965076778e-18
+      },
+      "paired_difference_adapter_minus_ls": {
+        "mean_difference": -0.023406960749902603,
+        "median_difference": -0.061814506697049076,
+        "std_difference": 0.18083337809951203,
+        "bootstrap_ci95": [
+          -0.05898399619489809,
+          0.012441345381141696
+        ],
+        "wilcoxon_statistic": 1918.0,
+        "wilcoxon_p_value": 0.036882423815124916
+      },
+      "paired_difference_adapter_minus_no_wideband_prior": {
+        "mean_difference": -0.0030093315685540208,
+        "median_difference": -0.002656945220711693,
+        "std_difference": 0.002955175876144164,
+        "bootstrap_ci95": [
+          -0.0035914681699693624,
+          -0.0024332358902628935
+        ],
+        "wilcoxon_statistic": 276.0,
+        "wilcoxon_p_value": 1.0521265456623128e-14
+      },
+      "selected_blend_mean": 0.5860000000000002,
+      "selected_keep_modes_mean": 5.0
+    },
+    {
+      "angle_shift": 0.04,
+      "delay_max": 0.25,
+      "sample_count": 100,
+      "nmse_mean": {
+        "ls": 0.5506917595266527,
+        "frozen_mlp": 0.5405053160798641,
+        "fixed_projection": 0.5381796160640819,
+        "physics_consistent_adapter": 0.532298689828345,
+        "no_wideband_prior_control": 0.5343763609523905
+      },
+      "nmse_std": {
+        "ls": 0.1633940503517509,
+        "frozen_mlp": 0.251182001684076,
+        "fixed_projection": 0.24816694838778505,
+        "physics_consistent_adapter": 0.24949418354314623,
+        "no_wideband_prior_control": 0.24932085082893332
+      },
+      "paired_difference_adapter_minus_frozen": {
+        "mean_difference": -0.008206626251519165,
+        "median_difference": -0.005581574106197029,
+        "std_difference": 0.009271425334997434,
+        "bootstrap_ci95": [
+          -0.010234387623637185,
+          -0.0065453093461215455
+        ],
+        "wilcoxon_statistic": 9.0,
+        "wilcoxon_p_value": 5.112831740936498e-18
+      },
+      "paired_difference_adapter_minus_ls": {
+        "mean_difference": -0.018393069698307812,
+        "median_difference": -0.036013553498156624,
+        "std_difference": 0.1754980588961184,
+        "bootstrap_ci95": [
+          -0.051763497302097054,
+          0.017671961609894028
+        ],
+        "wilcoxon_statistic": 1983.0,
+        "wilcoxon_p_value": 0.06238182359673901
+      },
+      "paired_difference_adapter_minus_no_wideband_prior": {
+        "mean_difference": -0.0020776711240455326,
+        "median_difference": -0.0019469492441461511,
+        "std_difference": 0.0036404939856383794,
+        "bootstrap_ci95": [
+          -0.0027700369220042664,
+          -0.0013602280157862777
+        ],
+        "wilcoxon_statistic": 959.0,
+        "wilcoxon_p_value": 7.267995055888034e-08
+      },
+      "selected_blend_mean": 0.5720000000000001,
+      "selected_keep_modes_mean": 5.0
+    },
+    {
+      "angle_shift": 0.08,
+      "delay_max": 0.3,
+      "sample_count": 100,
+      "nmse_mean": {
+        "ls": 0.5498065332411234,
+        "frozen_mlp": 0.5448957919357671,
+        "fixed_projection": 0.5375448198681118,
+        "physics_consistent_adapter": 0.5335762704221092,
+        "no_wideband_prior_control": 0.5343366914433969
+      },
+      "nmse_std": {
+        "ls": 0.16219206391889257,
+        "frozen_mlp": 0.23146725855302164,
+        "fixed_projection": 0.22867903652914218,
+        "physics_consistent_adapter": 0.22964178898021972,
+        "no_wideband_prior_control": 0.22967958653826787
+      },
+      "paired_difference_adapter_minus_frozen": {
+        "mean_difference": -0.011319521513658053,
+        "median_difference": -0.007973780795983987,
+        "std_difference": 0.012548594945552426,
+        "bootstrap_ci95": [
+          -0.013995400630185938,
+          -0.009088056070263346
+        ],
+        "wilcoxon_statistic": 3.0,
+        "wilcoxon_p_value": 4.2663227307182344e-18
+      },
+      "paired_difference_adapter_minus_ls": {
+        "mean_difference": -0.01623026281901427,
+        "median_difference": -0.03401467000896324,
+        "std_difference": 0.16152198711144453,
+        "bootstrap_ci95": [
+          -0.04808209228850215,
+          0.016803560069021898
+        ],
+        "wilcoxon_statistic": 2078.0,
+        "wilcoxon_p_value": 0.12431015694745697
+      },
+      "paired_difference_adapter_minus_no_wideband_prior": {
+        "mean_difference": -0.0007604210212878055,
+        "median_difference": -0.0007671043294001645,
+        "std_difference": 0.004299486272650403,
+        "bootstrap_ci95": [
+          -0.001572698717855213,
+          9.04170049564706e-05
+        ],
+        "wilcoxon_statistic": 1862.0,
+        "wilcoxon_p_value": 0.02263086665981647
+      },
+      "selected_blend_mean": 0.5700000000000001,
+      "selected_keep_modes_mean": 5.0
+    },
+    {
+      "angle_shift": 0.12,
+      "delay_max": 0.4,
+      "sample_count": 100,
+      "nmse_mean": {
+        "ls": 0.5479974509120054,
+        "frozen_mlp": 0.5582757954234663,
+        "fixed_projection": 0.5360812168303276,
+        "physics_consistent_adapter": 0.536621649108516,
+        "no_wideband_prior_control": 0.5346788675693539
+      },
+      "nmse_std": {
+        "ls": 0.15954034069136896,
+        "frozen_mlp": 0.209807223626278,
+        "fixed_projection": 0.20780046957797071,
+        "physics_consistent_adapter": 0.20774554291170755,
+        "no_wideband_prior_control": 0.2085862977754077
+      },
+      "paired_difference_adapter_minus_frozen": {
+        "mean_difference": -0.021654146314950263,
+        "median_difference": -0.013805769634477091,
+        "std_difference": 0.023555588952054105,
+        "bootstrap_ci95": [
+          -0.02648698311734712,
+          -0.01736604405688926
+        ],
+        "wilcoxon_statistic": 1.0,
+        "wilcoxon_p_value": 4.0161556854627e-18
+      },
+      "paired_difference_adapter_minus_ls": {
+        "mean_difference": -0.011375801803489316,
+        "median_difference": -0.01651432492006999,
+        "std_difference": 0.14762312712078027,
+        "bootstrap_ci95": [
+          -0.04010451457200676,
+          0.017747690975676814
+        ],
+        "wilcoxon_statistic": 2300.0,
+        "wilcoxon_p_value": 0.439153713588891
+      },
+      "paired_difference_adapter_minus_no_wideband_prior": {
+        "mean_difference": 0.0019427815391620396,
+        "median_difference": 0.0012090907128834982,
+        "std_difference": 0.0054567087759502045,
+        "bootstrap_ci95": [
+          0.0009077063207742402,
+          0.0030188627021820835
+        ],
+        "wilcoxon_statistic": 1723.0,
+        "wilcoxon_p_value": 0.005823870665552309
+      },
+      "selected_blend_mean": 0.5840000000000001,
+      "selected_keep_modes_mean": 5.0
+    },
+    {
+      "angle_shift": 0.18,
+      "delay_max": 0.5,
+      "sample_count": 100,
+      "nmse_mean": {
+        "ls": 0.5462257577331748,
+        "frozen_mlp": 0.5914543513369519,
+        "fixed_projection": 0.5495606872434667,
+        "physics_consistent_adapter": 0.5548787069314559,
+        "no_wideband_prior_control": 0.550567725531364
+      },
+      "nmse_std": {
+        "ls": 0.1566358654760484,
+        "frozen_mlp": 0.19270330218857173,
+        "fixed_projection": 0.19027800716556773,
+        "physics_consistent_adapter": 0.18950307863656676,
+        "no_wideband_prior_control": 0.19109470614094023
+      },
+      "paired_difference_adapter_minus_frozen": {
+        "mean_difference": -0.036575644405495995,
+        "median_difference": -0.022012342770188598,
+        "std_difference": 0.037818575474118044,
+        "bootstrap_ci95": [
+          -0.04427356153729926,
+          -0.02953611496511688
+        ],
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_p_value": 3.896559845095909e-18
+      },
+      "paired_difference_adapter_minus_ls": {
+        "mean_difference": 0.008652949198281053,
+        "median_difference": 0.011228991908600494,
+        "std_difference": 0.1245210637052168,
+        "bootstrap_ci95": [
+          -0.015269894075906051,
+          0.03286056230089567
+        ],
+        "wilcoxon_statistic": 2335.0,
+        "wilcoxon_p_value": 0.5135746748177931
+      },
+      "paired_difference_adapter_minus_no_wideband_prior": {
+        "mean_difference": 0.00431098140009201,
+        "median_difference": 0.0024396730474536554,
+        "std_difference": 0.006730894479120014,
+        "bootstrap_ci95": [
+          0.003048724864516811,
+          0.005648997051625764
+        ],
+        "wilcoxon_statistic": 967.0,
+        "wilcoxon_p_value": 8.465721277572117e-08
+      },
+      "selected_blend_mean": 0.601,
+      "selected_keep_modes_mean": 5.0
+    }
+  ]
+}

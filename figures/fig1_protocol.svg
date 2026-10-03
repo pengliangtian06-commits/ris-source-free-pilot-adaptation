@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="515.4pt" height="184.2pt" viewBox="0 0 515.4 184.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-03T04:36:42.983770</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 184.2 
+L 515.4 184.2 
+L 515.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.23 83.61 
+L 122.43 83.61 
+L 122.43 41.16 
+L 22.23 41.16 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #dbeafe; stroke: #374151; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 207.6 83.61 
+L 307.8 83.61 
+L 307.8 41.16 
+L 207.6 41.16 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #dcfce7; stroke: #374151; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 392.97 83.61 
+L 493.17 83.61 
+L 493.17 41.16 
+L 392.97 41.16 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #ffedd5; stroke: #374151; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 124.428771 62.385 
+Q 165.01561 62.385 204.484415 62.385 
+" clip-path="url(#p936a5528f8)" style="fill: none; stroke: #374151; stroke-linecap: round"/>
+    <path d="M 199.684415 59.985 
+L 204.484415 62.385 
+L 199.684415 64.785 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #374151; stroke: #374151; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 309.798771 62.385 
+Q 350.38561 62.385 389.854415 62.385 
+" clip-path="url(#p936a5528f8)" style="fill: none; stroke: #374151; stroke-linecap: round"/>
+    <path d="M 385.054415 59.985 
+L 389.854415 62.385 
+L 385.054415 64.785 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #374151; stroke: #374151; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 62.31 158.322 
+L 217.62 158.322 
+L 217.62 119.268 
+L 62.31 119.268 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #f3f4f6; stroke: #6b7280; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 297.78 158.322 
+L 453.09 158.322 
+L 453.09 119.268 
+L 297.78 119.268 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #f3f4f6; stroke: #6b7280; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 255.700032 83.490232 
+Q 192.901502 80.040635 142.408847 115.825954 
+" clip-path="url(#p936a5528f8)" style="fill: none; stroke: #059669; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 146.828803 115.144786 
+L 142.408847 115.825954 
+L 144.515886 111.881288 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #059669; stroke: #059669; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 259.699968 83.490232 
+Q 322.498498 80.040635 372.991153 115.825954 
+" clip-path="url(#p936a5528f8)" style="fill: none; stroke: #2563eb; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 370.884114 111.881288 
+L 372.991153 115.825954 
+L 368.571197 115.144786 
+z
+" clip-path="url(#p936a5528f8)" style="fill: #2563eb; stroke: #2563eb; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(67.327266 60.670071)">BS</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(44.613398 69.424343)">source estimator</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(251.448633 56.270962)">RIS</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(239.25293 65.070937)">reflection +</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(237.272461 73.122085)">beam squint</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(437.86043 56.225259)">UE</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(427.016484 65.025234)">wideband</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(429.935039 73.823452)">channel</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="165.015" y="53.270855" transform="rotate(-0 165.015 53.270855)">cascaded hop</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="350.385" y="53.270855" transform="rotate(-0 350.385 53.270855)">received pilots</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(107.032383 131.187847)">target support block</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(105.151523 140.689922)">unlabelled pilots only</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(117.243516 150.2377)">adapter fitting</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(337.913906 131.187847)">target evaluation block</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(347.710781 140.689922)">disjoint channels</text>
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(333.542813 150.2377)">CSI used only for scoring</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="257.7" y="21.673891" transform="rotate(-0 257.7 21.673891)">Explicit BS–RIS–UE protocol with support/evaluation isolation</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p936a5528f8">
+   <rect x="7.2" y="7.2" width="501" height="169.8"/>
+  </clipPath>
+ </defs>
+</svg>

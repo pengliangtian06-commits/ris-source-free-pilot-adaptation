@@ -1,0 +1,23 @@
+{
+  "experiment": "ris_ofdm_sparse_pilot_ls_smoke",
+  "results": [
+    {
+      "pilot_count": 2,
+      "snr_db": 15.0,
+      "nmse_mean": 0.4795133947345029,
+      "nmse_std": 0.19235284583906365
+    },
+    {
+      "pilot_count": 3,
+      "snr_db": 15.0,
+      "nmse_mean": 0.35558342151317957,
+      "nmse_std": 0.1584279465324228
+    },
+    {
+      "pilot_count": 4,
+      "snr_db": 15.0,
+      "nmse_mean": 0.031218227317187642,
+      "nmse_std": 0.0022312646490207327
+    }
+  ]
+}

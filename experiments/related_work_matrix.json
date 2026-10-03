@@ -1,0 +1,57 @@
+[
+  {
+    "key": "hybridPhysicsRis2026",
+    "short_title": "Hybrid physics-informed RIS channel estimation",
+    "year": 2026,
+    "scenario": "RIS-enabled mmWave channel",
+    "supervision": "Physics-informed neural estimation; label-free online adaptation not confirmed",
+    "adaptation_signal": "Physical/model structure; source-free pilot adaptation not confirmed",
+    "downstream_metric": "Not established in checked metadata",
+    "failure_analysis": "Not established in checked metadata",
+    "difference": "This paper evaluates explicit wideband shifts, held-out recovery, cost and failure cells"
+  },
+  {
+    "key": "broadbandRisEstimation2025",
+    "short_title": "Location and RIS-element grouping for broadband estimation",
+    "year": 2025,
+    "scenario": "Broadband RIS-aided mmWave massive MIMO",
+    "supervision": "Estimator design; source-free adaptation not confirmed",
+    "adaptation_signal": "Location/RIS-element grouping",
+    "downstream_metric": "Channel-estimation performance; downstream BER/SE not confirmed",
+    "failure_analysis": "Cross-environment failure map not confirmed",
+    "difference": "This paper uses a source/target support-evaluation protocol under explicit shifts"
+  },
+  {
+    "key": "superResolutionRis2026",
+    "short_title": "Super-resolution RIS channel estimation",
+    "year": 2026,
+    "scenario": "RIS-aided multi-user mmWave systems",
+    "supervision": "Dictionary adaptation and error modeling; pilot-only source-free adaptation not confirmed",
+    "adaptation_signal": "Dictionary/model adaptation",
+    "downstream_metric": "Channel-estimation performance; held-out BER/SE trade-off not confirmed",
+    "failure_analysis": "Explicit shift failure boundaries not confirmed",
+    "difference": "This paper compares adapter-only and full-model capacity with communication metrics"
+  },
+  {
+    "key": "adaptiveRisGlobecom2024",
+    "short_title": "Sparsity-based adaptive RIS estimation",
+    "year": 2024,
+    "scenario": "RIS-assisted mmWave massive MIMO",
+    "supervision": "Sparse/model-based estimation; source-free neural adaptation not confirmed",
+    "adaptation_signal": "Sparsity and adaptive estimation",
+    "downstream_metric": "Channel-estimation performance; downstream BER/SE not confirmed",
+    "failure_analysis": "Cross-geometry failure boundary not confirmed",
+    "difference": "This paper emphasizes unlabeled pilot adaptation and retained non-improving cells"
+  },
+  {
+    "key": "unifiedXlRis2024",
+    "short_title": "Unified XL-RIS channel estimation",
+    "year": 2024,
+    "scenario": "XL-RIS-assisted mmWave MU-MIMO",
+    "supervision": "Unified channel-estimation model; source-free adaptation not confirmed",
+    "adaptation_signal": "Unified estimator structure",
+    "downstream_metric": "Channel-estimation performance; downstream BER/SE not confirmed",
+    "failure_analysis": "Explicit source-target shift map not confirmed",
+    "difference": "This paper studies explicit BS-RIS-UE shifts and accuracy-compute trade-offs"
+  }
+]

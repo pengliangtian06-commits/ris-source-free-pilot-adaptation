@@ -1,0 +1,14 @@
+Submission PDF Inspection
+============================================================
+Generated: 2026-10-02T20:22:04.133073+00:00
+File: paper-draft-r025.pdf
+Official source: https://www.sciencedirect.com/journal/digital-communications-and-networks/publish/guide-for-authors
+Preset checked: not applicable
+
+PAGE-COUNT
+Status: manual
+Total PDF pages: 11; maximum content pages: 12. Re-run with --content-pages after counting according to the official rule.
+
+FONTS
+Status: info
+Embedded font names: AATTWA+CMBX9, AUVGAC+CMSS8, BDOHQM+ArialMT, CCUPCF+ArialMT, CECFXM+ArialMT, CURVRC+ArialMT, CWUQXZ+CMR7, DODOMU+CMR17, EAPZPP+Arial-BoldMT, ENOQMM+ArialMT, EVQHIS+CMR5, EYIZPP+Arial-BoldMT, FUCPUR+CMR9, GSIBIK+ArialMT, HMCRQQ+CMTI10, KAIGWU+CMSY7, LSUQBE+MSBM10, MGJBEB+CMR10, MTCLMF+CMMI7, MWOAYY+Arial-BoldMT, NJADQQ+CMMI10, NVOSZK+CMMI5, SKNEOF+CMBX12, TSBOKK+CMEX10, ULONFI+CMSY10, UVEEFN+CMBX10, VTKEJN+Arial-BoldMT. This does not verify font family or point size compliance.

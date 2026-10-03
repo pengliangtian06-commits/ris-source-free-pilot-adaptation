@@ -1,0 +1,115 @@
+{
+  "generated_at_utc": "2026-10-02T20:52:52.746446+00:00",
+  "interpretation": "Transport errors are limitations, not no-match evidence.",
+  "records": [
+    {
+      "doi": "10.23919/eucap68105.2026.11612660",
+      "doi_resolution": {
+        "status": 202,
+        "resolved_url": "https://ieeexplore.ieee.org/document/11612660/"
+      },
+      "semantic_scholar": {
+        "status": 200,
+        "body": {
+          "paperId": "eb0dba075061d187b958c36d5ebe980dfcb7d056",
+          "externalIds": {
+            "DOI": "10.23919/EuCAP68105.2026.11612660",
+            "CorpusId": 291043222
+          },
+          "url": "https://www.semanticscholar.org/paper/eb0dba075061d187b958c36d5ebe980dfcb7d056",
+          "title": "Hybrid Physics-Informed Neural Network for Channel Estimation in RIS-Enabled mmWave Channels",
+          "venue": "European Conference on Antennas and Propagation",
+          "year": 2026
+        }
+      }
+    },
+    {
+      "doi": "10.1016/j.phycom.2024.102594",
+      "doi_resolution": {
+        "status": 200,
+        "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S1874490724003124"
+      },
+      "semantic_scholar": {
+        "status": 200,
+        "body": {
+          "paperId": "63cd378a2e9af924a6dbb3d1155af3df7af01d63",
+          "externalIds": {
+            "DBLP": "journals/phycomm/GuoZ25",
+            "DOI": "10.1016/j.phycom.2024.102594",
+            "CorpusId": 275648736
+          },
+          "url": "https://www.semanticscholar.org/paper/63cd378a2e9af924a6dbb3d1155af3df7af01d63",
+          "title": "Leveraging location and RIS elements grouping for the broadband channel estimation of RIS-aided mmwave massive MIMO",
+          "venue": "Physical Communication",
+          "year": 2025
+        }
+      }
+    },
+    {
+      "doi": "10.1109/TSP.2026.3689912",
+      "doi_resolution": {
+        "status": 202,
+        "resolved_url": "https://ieeexplore.ieee.org/document/11505976/"
+      },
+      "semantic_scholar": {
+        "status": 200,
+        "body": {
+          "paperId": "781820be00c9d5825f571aae5ac67d8617c1a2de",
+          "externalIds": {
+            "DBLP": "journals/tsp/PengZPEL26",
+            "DOI": "10.1109/TSP.2026.3689912",
+            "CorpusId": 287979612
+          },
+          "url": "https://www.semanticscholar.org/paper/781820be00c9d5825f571aae5ac67d8617c1a2de",
+          "title": "Super-Resolution Channel Estimation for RIS-Aided Multi-User mmWave Systems: Dictionary Adaptation and Error Modeling",
+          "venue": "IEEE Transactions on Signal Processing",
+          "year": 2026
+        }
+      }
+    },
+    {
+      "doi": "10.1109/gcwkshp64532.2024.11100491",
+      "doi_resolution": {
+        "status": 202,
+        "resolved_url": "https://ieeexplore.ieee.org/document/11100491/"
+      },
+      "semantic_scholar": {
+        "status": 200,
+        "body": {
+          "paperId": "fb267dc465ca0aacee393fb08ef9db87326cb951",
+          "externalIds": {
+            "DBLP": "conf/globecom/ShaoL24",
+            "DOI": "10.1109/GCWkshp64532.2024.11100491",
+            "CorpusId": 280654376
+          },
+          "url": "https://www.semanticscholar.org/paper/fb267dc465ca0aacee393fb08ef9db87326cb951",
+          "title": "Harnessing Sparsity: Adaptive Channel Estimation in RIS-Assisted mmWave Massive MIMO Systems",
+          "venue": "2024 IEEE Globecom Workshops (GC Wkshps)",
+          "year": 2024
+        }
+      }
+    },
+    {
+      "doi": "10.1109/gcwkshp64532.2024.11100688",
+      "doi_resolution": {
+        "status": 202,
+        "resolved_url": "https://ieeexplore.ieee.org/document/11100688/"
+      },
+      "semantic_scholar": {
+        "status": 200,
+        "body": {
+          "paperId": "ddb706feb14675f2c893b9917f84ecd3893f7b5e",
+          "externalIds": {
+            "DBLP": "conf/globecom/LeeCH24",
+            "DOI": "10.1109/GCWkshp64532.2024.11100688",
+            "CorpusId": 280655096
+          },
+          "url": "https://www.semanticscholar.org/paper/ddb706feb14675f2c893b9917f84ecd3893f7b5e",
+          "title": "Unified Channel Estimation for XL-RIS Assisted mmWave MU-MIMO Systems",
+          "venue": "2024 IEEE Globecom Workshops (GC Wkshps)",
+          "year": 2024
+        }
+      }
+    }
+  ]
+}

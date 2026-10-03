@@ -1,0 +1,55 @@
+{
+  "experiment": "ris_explicit_bs_ris_ue_generator_smoke",
+  "config": {
+    "subcarriers": 16,
+    "tx_antennas": 4,
+    "ris_elements": 16,
+    "bs_paths": 3,
+    "ue_paths": 2,
+    "seeds": 20
+  },
+  "results": [
+    {
+      "beam_squint": false,
+      "pilot_count": 2,
+      "snr_db": 15.0,
+      "nmse_mean": 0.5040082537650832,
+      "nmse_std": 0.1819285716076612
+    },
+    {
+      "beam_squint": false,
+      "pilot_count": 3,
+      "snr_db": 15.0,
+      "nmse_mean": 0.2147140356615639,
+      "nmse_std": 0.1355480693081492
+    },
+    {
+      "beam_squint": false,
+      "pilot_count": 4,
+      "snr_db": 15.0,
+      "nmse_mean": 0.030005529286002707,
+      "nmse_std": 0.0030202051168760308
+    },
+    {
+      "beam_squint": true,
+      "pilot_count": 2,
+      "snr_db": 15.0,
+      "nmse_mean": 0.5104690349670622,
+      "nmse_std": 0.05145761928371892
+    },
+    {
+      "beam_squint": true,
+      "pilot_count": 3,
+      "snr_db": 15.0,
+      "nmse_mean": 0.254374651809868,
+      "nmse_std": 0.03718060190499974
+    },
+    {
+      "beam_squint": true,
+      "pilot_count": 4,
+      "snr_db": 15.0,
+      "nmse_mean": 0.030005529286002707,
+      "nmse_std": 0.00302020511687603
+    }
+  ]
+}
