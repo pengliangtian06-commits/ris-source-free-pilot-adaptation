@@ -154,10 +154,11 @@ ALLOWLIST = [
 ]
 
 SECRET_PATTERNS = [
-    re.compile("68" + "6818"),
-    re.compile("192" + r"\.168\.10\.46"),
-    re.compile(r"\bplt@" + "192" + r"\.168\.10\.46\b", re.IGNORECASE),
-    re.compile(r"password\s*[:=]\s*\S+", re.IGNORECASE),
+    re.compile(r"\b(?:password|passwd|pwd)\s*[:=]\s*\S+", re.IGNORECASE),
+    re.compile(
+        r"\b(?:10|192\.168|172\.(?:1[6-9]|2\d|3[01]))(?:\.\d{1,3}){2,3}\b",
+        re.IGNORECASE,
+    ),
     re.compile(r"(?:C:|D:)[\\/]Users[\\/][^\s<>]+", re.IGNORECASE),
     re.compile(r"(?:ssh|scp)\s+[^\s]+@[^\s]+", re.IGNORECASE),
 ]

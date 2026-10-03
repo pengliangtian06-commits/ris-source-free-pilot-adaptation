@@ -38,6 +38,16 @@ and release notes are retained unchanged.
 - The local manifest contains 134 allowlisted files, five intentional
   exclusions, and a passed credential scan.
 
+## Security-scan hygiene
+
+- The current `main` branch uses generic password, private-network and SSH
+  pattern checks in `experiments/create_submission_package.py`; no literal
+  password or host value is needed by the scanner.
+- The immutable v1.0.3 archive retains the historical scanner source used to
+  create that release. Its defined ZIP scan passed and no credential value is
+  present in the package data or weights. A future hotfix release should keep
+  the generic scanner source when the package is republished.
+
 ## Remaining submission gates
 
 1. Record institution-authenticated Clarivate JCR/MJL and CAS evidence for
