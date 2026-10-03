@@ -21,7 +21,7 @@
 
 `venue_guidelines_r026.md` 记录了 2026-10-02 对官方 DCN 指南的核验结果，包括 Original Research、可编辑源文件、最多 6 个关键词以及按当前指南/模板确定长度等工作约束。由于本次终端无法重新读取动态页面，提交前仍须在浏览器投稿系统中逐项复核这些字段。
 
-当前工作稿的本地格式检查见 `dcn_format_validation_R034.txt`：PDF 共 11 页，处于本项目约定的 10–12 页范围；字体嵌入检查通过，但该工具不能替代 DCN 模板对字号、页边距和最终字段的判断。
+当前作者信息版工作稿的本地格式检查见 `dcn_format_validation_R034.txt`：PDF 共 12 页，处于本项目约定的 10–12 页范围；字体嵌入检查通过，但该工具不能替代 DCN 模板对字号、页边距和最终字段的判断。
 
 ## R034 结果来源一致性修复
 
@@ -34,9 +34,9 @@
 1. 机构认可的 JCR/MJL 年份、学科类别、JCR quartile、SCIE 状态和证据编号。
 2. 机构认可的 CAS 分区年份、学科类别和证据编号。
 3. 通信作者指定、最终联系邮箱、基金和致谢；作者姓名、单位、已提供的 ORCID、初步 CRediT 和利益冲突已记录在 `AUTHORS.md` 与 `submission_declarations_r029.md`。
-4. 已完成公开仓库、许可证和 release tag；GitHub URL 为 <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>，当前 tag 为 `v1.0.2`，Zenodo 概念 DOI 为 <https://doi.org/10.5281/zenodo.23118757>。Zenodo v1.0.1 版本 DOI 为 <https://doi.org/10.5281/zenodo.23118758>；v1.0.2 版本 DOI 待 Zenodo 索引后核对。是否公开模型权重仍需在投稿系统明确。
+4. 已完成公开仓库、许可证、release tag 和 DOI；GitHub URL 为 <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>，当前 tag 为 `v1.0.2`，Zenodo v1.0.2 版本 DOI 为 <https://doi.org/10.5281/zenodo.23119393>，概念 DOI 为 <https://doi.org/10.5281/zenodo.23118757>。Zenodo v1.0.1 版本 DOI 为 <https://doi.org/10.5281/zenodo.23118758>；是否公开模型权重仍需在投稿系统明确。
 5. DCN 投稿系统中的 article type、highlights、graphical abstract、AI-use disclosure、declarations、figure uploads 和 APC 选项。
 
 ## 通过规则
 
-在机构分区记录、通信作者/基金字段、投稿系统字段和 v1.0.2 版本 DOI 核验齐全后，才把 DCN 从“暂定目标”改为“可提交目标”。若任一门槛不满足，按 `DCN暂定投稿计划_R033.md` 中的备用期刊顺序重新执行同一核验流程。
+在机构分区记录、通信作者/基金字段和投稿系统字段齐全后，才把 DCN 从“暂定目标”改为“可提交目标”。若任一门槛不满足，按 `DCN暂定投稿计划_R033.md` 中的备用期刊顺序重新执行同一核验流程。

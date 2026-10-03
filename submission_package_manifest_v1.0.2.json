@@ -5,8 +5,8 @@
   "allowlisted_files": [
     {
       "path": "README.md",
-      "bytes": 3587,
-      "sha256": "a348b5da2ecdc63511b5a9afc80e5e2f62c1e7844403f6bfd0f771e7bfa72bae"
+      "bytes": 3577,
+      "sha256": "2bbe74bcd3f4f425f68f977a28e3a1e2159df348a550a7cae2747d8e661ee971"
     },
     {
       "path": "LICENSE",
@@ -25,8 +25,8 @@
     },
     {
       "path": "PUBLIC_RELEASE_NOTES_v1.0.2.md",
-      "bytes": 1328,
-      "sha256": "c71b12604aa6043209dec01766abe4b4e42a6829afb2678ddd82ca3f409a6fa2"
+      "bytes": 1341,
+      "sha256": "541636fed93d941a0f6a799d5d633dd24b5aa07cd8b745ac968216c6461960be"
     },
     {
       "path": "AUTHORS.md",
@@ -36,12 +36,12 @@
     {
       "path": "CITATION.cff",
       "bytes": 1335,
-      "sha256": "c15ca13f9744285a192b78e960f00f9ec4a53a7d249ef2733cb3d83974fb005e"
+      "sha256": "8f95b3d1bad60c383c967d0e03b040c1e440e2c103e0965bb923b51248fb4cf2"
     },
     {
       "path": "paper-draft-r025.tex",
-      "bytes": 51052,
-      "sha256": "f924af50c46a898ab2f432ab365dd0a102e71f1271ebca3295121b4248d552dd"
+      "bytes": 50931,
+      "sha256": "9a9aa049f447f4f92521582a6ec489feb952c2d0c8146285e61314cd253751a0"
     },
     {
       "path": "references.bib",
@@ -50,8 +50,8 @@
     },
     {
       "path": "REPRODUCTION_README_R032.md",
-      "bytes": 4280,
-      "sha256": "ea985a610aba354f33d091136625fde7e45bb8a2f724b84414447619b1d3d1c8"
+      "bytes": 4350,
+      "sha256": "ca42fb2df5dd52adc10fb565ab78e99597681455ffdfbf09b719ad9192d768c8"
     },
     {
       "path": "DATA_SOURCES.md",
@@ -65,18 +65,18 @@
     },
     {
       "path": "DCN暂定投稿计划_R033.md",
-      "bytes": 8715,
-      "sha256": "2822fbf93e76e91a816e69ba123bc1cff84ea27e35977a0dfaa766977b49c66c"
+      "bytes": 8767,
+      "sha256": "e6ac6ed15d20c10a722ed8f1e61c88de5db8fc8b1e8008347ff0688d8b209c78"
     },
     {
       "path": "DCN投稿门槛核验_R034.md",
-      "bytes": 3857,
-      "sha256": "eaf57bedd1c9bd96841a3dbd65da34244f399ea172a1bc8c894be5a16af0fae8"
+      "bytes": 3870,
+      "sha256": "c4502438bf8ab5086b475f71ebf8d30fb343a0b35b8efc3eef044365210c4a52"
     },
     {
       "path": "dcn_format_validation_R034.txt",
-      "bytes": 992,
-      "sha256": "cc13cce94a97910e880fd2bf553d5ac6093a6c8f4238d180c14a2a749851aa90"
+      "bytes": 1046,
+      "sha256": "90ad45cb91ff0f40542e0d5f2a07a4d9cce04bf3d44a77085282b542fcebf9f6"
     },
     {
       "path": "nature_workflow_audit_R032.md",
@@ -85,8 +85,8 @@
     },
     {
       "path": "nature_workflow_audit_R033.md",
-      "bytes": 6300,
-      "sha256": "dd0a6150ee094fe6f4af235af9b75da31a372f280077f291dc5f050785972718"
+      "bytes": 6309,
+      "sha256": "ce9c907213e62c400f227adb4534c19cf473e0f9490f637e0129534f71ba9b3b"
     },
     {
       "path": "claim_evidence_map_R032.md",
@@ -95,8 +95,8 @@
     },
     {
       "path": "claim_evidence_map_R033.md",
-      "bytes": 1955,
-      "sha256": "8023300139ce0649dea10972107f5126f4bd9651d6672fdc03a8509ca2d66dd4"
+      "bytes": 1952,
+      "sha256": "6687756300edfe6b97fb5a037abac379fe59666d87d2a39b49bd7ef58e430252"
     },
     {
       "path": "supplementary_materials_R032.md",
@@ -530,8 +530,8 @@
     },
     {
       "path": "submission_declarations_r029.md",
-      "bytes": 3540,
-      "sha256": "2e16bfb958748357caddd24ec8e35e8ab756971d75e070a281a0cfe2f0a5d9ca"
+      "bytes": 3617,
+      "sha256": "ff92dfb50e41322794138a0f3408a0cd9a225423f220fcf2068b25eda44e91a0"
     },
     {
       "path": "cover_letter_dcn_r029.md",

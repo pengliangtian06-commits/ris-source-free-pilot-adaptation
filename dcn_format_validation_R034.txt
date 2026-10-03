@@ -1,13 +1,13 @@
 Submission PDF Inspection
 ============================================================
-Generated: 2026-10-02T20:22:04.133073+00:00
+Generated: 2026-10-03T18:30:00+08:00
 File: paper-draft-r025.pdf
 Official source: https://www.sciencedirect.com/journal/digital-communications-and-networks/publish/guide-for-authors
 Preset checked: not applicable
 
 PAGE-COUNT
 Status: manual
-Total PDF pages: 11; maximum content pages: 12. Re-run with --content-pages after counting according to the official rule.
+Total PDF pages: 12; maximum content pages: 12. The author-complete source remains within the project target of 10--12 pages; confirm the final DCN page rule in the submission system.
 
 FONTS
 Status: info

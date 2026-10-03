@@ -8,7 +8,7 @@
 | C4 | Results capacity/cost; Discussion | `table_r017_capacity.tex`, `fig4_capacity_cost.pdf`, `table_r024_cost.tex` | Parameter count is portable within the implementation; CPU timing is hardware-specific. |
 | C5 | Results physical control; Discussion | `table_r021_physics_control.tex`, preregistered paired JSON | The delay-tail term fails this preregistered independent-contribution gate; do not infer that every physical penalty fails. |
 | C6 | Results classical baseline | `fig3_classical_sensitivity.pdf`, `table_r032_omp.tex`, OMP JSON | Fixed dictionary and sparsity define the tested OMP reference; this is not an exhaustive model-based comparison. |
-| C7 | Methods and Data/Code statement | R033 README, generator test, exporters, v1.0.2 manifest and final figures; GitHub tag and Zenodo concept DOI | Reproducibility is publicly auditable at the tagged release; the concept DOI is stable, while Zenodo's version-specific v1.0.2 DOI remains an indexing field. |
+| C7 | Methods and Data/Code statement | R033 README, generator test, exporters, v1.0.2 manifest and final figures; GitHub tag and Zenodo version DOI | Reproducibility is publicly auditable at the tagged release; version DOI `10.5281/zenodo.23119393` and concept DOI `10.5281/zenodo.23118757` are recorded. |
 
 Every claim has a visible evidence pointer and an explicit scope boundary. The
 R033 package excludes private host details, credentials and stale CUDA artifacts.

@@ -12,7 +12,8 @@ the scripts in the accompanying reproducibility bundle. The generator,
 configuration values, fixed seeds, table exporters, verification manifests and
 machine-readable result summaries are publicly available at
 <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation/tree/v1.0.2>.
-The release family is archived at Zenodo under concept DOI
+This exact release is archived at Zenodo under version DOI
+<https://doi.org/10.5281/zenodo.23119393>; the release-family concept DOI is
 <https://doi.org/10.5281/zenodo.23118757>; the previous version record is
 <https://doi.org/10.5281/zenodo.23118758>. The package contains synthetic data;
 no measured-channel data are claimed.

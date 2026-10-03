@@ -5,7 +5,8 @@ artifacts, table exporters, figure source and validation scripts for the
 source-free pilot-adaptation benchmark. Digital Communications and Networks
 (DCN) is the provisional target venue. The public repository is
 <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>,
-the current tag is `v1.0.2`, and the release family has the Zenodo concept DOI
+the current tag is `v1.0.2`, and its Zenodo version DOI is
+<https://doi.org/10.5281/zenodo.23119393>. The release family concept DOI is
 <https://doi.org/10.5281/zenodo.23118757>. The archived `v1.0.1` record is
 <https://doi.org/10.5281/zenodo.23118758>.
 
@@ -72,7 +73,7 @@ training/data seed. The negative delay-tail control is retained as a negative
 control and does not establish a physical mechanism.
 
 The current Data and Code Availability statement can cite the repository URL,
-tag, concept DOI and the dual-license files. Before submission, complete the
+tag, version DOI, concept DOI and the dual-license files. Before submission, complete the
 corresponding-author designation, final contact choice, funding statement and
 institution-specific venue classification. Do not add private credentials,
 phone numbers or host details to the release.
