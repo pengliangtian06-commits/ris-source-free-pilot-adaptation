@@ -11,8 +11,8 @@ and release notes are retained unchanged.
 - GitHub repository: <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>
 - GitHub release: <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation/releases/tag/v1.0.3>
 - Git tag `v1.0.3` dereferences to commit `763755aebd288a2e4fd9a523d0c446d0cf0dd624`.
-- GitHub `main` currently points to merge commit
-  `2685494d5804998f1fde6829bf39a280766e06f8`; the tagged release tree remains
+- GitHub `main` currently points to post-release verification commit
+  `25a32048852a812af037a681217fe9da98d9492f`; the tagged release tree remains
   immutable.
 - GitHub asset: `submission_package_v1.0.3.zip`, 4,132,213 bytes,
   SHA-256 `4c15cd3907b1bed0988021ffc6ead620be4c1276a423b917df3f6e089c764fa9`.
@@ -45,7 +45,8 @@ and release notes are retained unchanged.
 2. Verify the live Elsevier guide and submission-system fields, including
    article type, abstract/highlights limits, graphical abstract, declarations,
    AI-use statement, ORCID/CRediT and APC.
-3. Compile the main and supplementary LaTeX sources in a clean environment and
-   complete the final preflight. Until those gates are recorded, the journal
-   remains a candidate rather than a confirmed submission route.
+3. Keep the shell compilation and Nature-style preflight records with the
+   submission audit. The built-in editor compiler remains unavailable in this
+   environment, so the journal remains a candidate until the institutional and
+   live-system records above are supplied.
 
