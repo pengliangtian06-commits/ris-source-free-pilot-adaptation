@@ -1,0 +1,14 @@
+Submission PDF Inspection
+============================================================
+Generated: 2026-10-03T18:30:00+08:00
+File: paper-draft-r025.pdf
+Official source: https://www.sciencedirect.com/journal/digital-communications-and-networks/publish/guide-for-authors
+Preset checked: not applicable
+
+PAGE-COUNT
+Status: manual
+Total PDF pages: 12; maximum content pages: 12. The author-complete source remains within the project target of 10--12 pages; confirm the final DCN page rule in the submission system.
+
+FONTS
+Status: info
+Embedded font names: AATTWA+CMBX9, AUVGAC+CMSS8, BDOHQM+ArialMT, CCUPCF+ArialMT, CECFXM+ArialMT, CURVRC+ArialMT, CWUQXZ+CMR7, DODOMU+CMR17, EAPZPP+Arial-BoldMT, ENOQMM+ArialMT, EVQHIS+CMR5, EYIZPP+Arial-BoldMT, FUCPUR+CMR9, GSIBIK+ArialMT, HMCRQQ+CMTI10, KAIGWU+CMSY7, LSUQBE+MSBM10, MGJBEB+CMR10, MTCLMF+CMMI7, MWOAYY+Arial-BoldMT, NJADQQ+CMMI10, NVOSZK+CMMI5, SKNEOF+CMBX12, TSBOKK+CMEX10, ULONFI+CMSY10, UVEEFN+CMBX10, VTKEJN+Arial-BoldMT. This does not verify font family or point size compliance.

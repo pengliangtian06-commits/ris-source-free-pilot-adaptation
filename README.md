@@ -52,11 +52,12 @@ The local manuscript build uses `latexmk -pdf paper-draft-r025.tex`. The release
 
 The public repository is
 <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>.
-The current release tag is `v1.0.2`. The release family is archived by Zenodo
-under the concept DOI <https://doi.org/10.5281/zenodo.23118757>; the previous
-version record `v1.0.1` is <https://doi.org/10.5281/zenodo.23118758>. A
-version-specific DOI for `v1.0.2` may be added by Zenodo after the GitHub release
-is indexed. The concept DOI is the stable citation target across versions.
+The current release tag is `v1.0.2`. Its version DOI is
+<https://doi.org/10.5281/zenodo.23119393>. The release family concept DOI is
+<https://doi.org/10.5281/zenodo.23118757>; the previous version record
+`v1.0.1` is <https://doi.org/10.5281/zenodo.23118758>. Cite the version DOI when
+referring to this exact release and the concept DOI when referring to the
+release family.
 
 The supplied author attribution is recorded in `AUTHORS.md`. Corresponding
 author designation, funding and institution-specific journal classification

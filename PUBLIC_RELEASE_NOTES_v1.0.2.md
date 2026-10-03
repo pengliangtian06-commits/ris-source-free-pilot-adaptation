@@ -16,12 +16,12 @@ paper-grade CPU artifacts and the supplied author attribution.
 
 - Repository: <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>
 - Tag: `v1.0.2`
+- Zenodo version DOI: <https://doi.org/10.5281/zenodo.23119393>
 - Zenodo concept DOI: <https://doi.org/10.5281/zenodo.23118757>
 - Previous version record: <https://doi.org/10.5281/zenodo.23118758> (`v1.0.1`)
 
-Zenodo may assign a version-specific DOI to `v1.0.2` after the GitHub release is
-indexed. The concept DOI above remains the stable citation target for the
-release family.
+Cite the version DOI for this exact release; the concept DOI remains the stable
+citation target for the release family.
 
 ## Licenses
 

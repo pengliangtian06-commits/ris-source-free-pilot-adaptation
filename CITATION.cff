@@ -14,8 +14,8 @@ authors:
     alias: "张长江"
     affiliation: "Beijing University of Posts and Telecommunications Century College"
 repository-code: "https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation"
-url: "https://doi.org/10.5281/zenodo.23118757"
-doi: "10.5281/zenodo.23118757"
+url: "https://doi.org/10.5281/zenodo.23119393"
+doi: "10.5281/zenodo.23119393"
 license: MIT
 version: "1.0.2"
 date-released: 2026-10-03
@@ -34,4 +34,4 @@ preferred-citation:
     - family-names: Zhang
       given-names: Changjiang
   year: 2026
-  doi: "10.5281/zenodo.23118757"
+  doi: "10.5281/zenodo.23119393"
