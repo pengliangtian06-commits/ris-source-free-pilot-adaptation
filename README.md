@@ -2,7 +2,14 @@
 
 Reproducibility release for the manuscript **Source-Free Pilot Adaptation for RIS-Assisted Wideband MIMO Channel Estimation under Explicit Distribution Shifts**.
 
-This repository contains the source manuscript, synthetic BS--RIS--UE generator, CPU-regenerated result artifacts, table and figure exporters, verification records, and the bounded DOI search record used to prepare the manuscript for a potential submission to *Digital Communications and Networks*. The venue remains provisional; no journal quartile is asserted here.
+This repository publishes the source manuscript, synthetic BS--RIS--UE
+generator, CPU-regenerated result artifacts, table and figure exporters,
+verification records, and the bounded DOI search record used to prepare the
+manuscript for a potential submission to *Digital Communications and Networks*.
+The complete 108-file reproducibility selection is distributed as
+`submission_package_v1.0.2.zip`; the top-level files provide release metadata,
+licenses and the package manifest. The venue remains provisional; no journal
+quartile is asserted here.
 
 ## Scope and evidence boundary
 
@@ -14,13 +21,14 @@ This repository contains the source manuscript, synthetic BS--RIS--UE generator,
 
 ## Contents
 
-- `paper-draft-r025.tex`: manuscript source.
-- `supplementary_tables_r032.tex`: supplementary table source.
-- `experiments/`: generators, baselines, CPU experiment runners, aggregators and exporters.
-- `paper-tables/`: generated LaTeX tables.
-- `figures/`: final figure sources, exports and layout/collision audit records.
-- `refine-logs/FINAL_NOVELTY_PASS_20261002.json`: DOI resolution record for the bounded neighboring-work search.
-- `REPRODUCTION_README_R032.md`: environment and rerun details.
+- `submission_package_v1.0.2.zip`: complete source, scripts, CPU artifacts,
+  tables, figures, manuscript and verification bundle.
+- `submission_package_manifest_v1.0.2.json`: SHA-256 manifest for the 108-file
+  release selection.
+- `REPRODUCTION_README_R032.md`: environment and rerun details included in the
+  package.
+- `refine-logs/FINAL_NOVELTY_PASS_20261002.json`: DOI resolution record for the
+  bounded neighboring-work search included in the package.
 - `submission_package_manifest_v1.0.2.json`: SHA-256 manifest for the release selection.
 - `AUTHORS.md`: supplied author attribution and the remaining submission metadata gates.
 - `CITATION.cff`: machine-readable citation metadata.
