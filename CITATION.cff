@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this release, please cite the Zenodo concept record and the tagged repository release."
+type: software
+title: "Source-Free Pilot Adaptation for RIS-Assisted Wideband MIMO"
+abstract: "Reproducibility release for a benchmark of source-free pilot adaptation under explicit wideband RIS distribution shifts."
+authors:
+  - family-names: Tian
+    given-names: Pengliang
+    alias: "田鹏亮"
+    affiliation: "Beijing University of Posts and Telecommunications Century College"
+    orcid: "https://orcid.org/0009-0003-5941-9797"
+  - family-names: Zhang
+    given-names: Changjiang
+    alias: "张长江"
+    affiliation: "Beijing University of Posts and Telecommunications Century College"
+repository-code: "https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation"
+url: "https://doi.org/10.5281/zenodo.23118757"
+doi: "10.5281/zenodo.23118757"
+license: MIT
+version: "1.0.2"
+date-released: 2026-10-03
+keywords:
+  - RIS
+  - wideband MIMO
+  - source-free adaptation
+  - channel estimation
+  - reproducibility
+preferred-citation:
+  type: software
+  title: "Source-Free Pilot Adaptation for RIS-Assisted Wideband MIMO"
+  authors:
+    - family-names: Tian
+      given-names: Pengliang
+    - family-names: Zhang
+      given-names: Changjiang
+  year: 2026
+  doi: "10.5281/zenodo.23118757"
