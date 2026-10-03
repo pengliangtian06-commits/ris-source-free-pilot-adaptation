@@ -1,0 +1,12 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The manuscript text, figures, tables and generated result artifacts in this
+repository are licensed under CC BY 4.0. To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/.
+
+You may share and adapt the material for any purpose, provided that you give
+appropriate credit, provide a link to the license, and indicate if changes
+were made. No additional restrictions may be applied to the licensed material.
+
+This notice does not apply to third-party material identified as such or to
+software dependencies, which remain subject to their own terms.
