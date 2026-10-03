@@ -50,7 +50,7 @@ The R033 release contains the current TeX, table exporters, CPU aggregation scri
 ## Final validation and remaining submission gates
 
 1. **Completed:** local `latexmk` compilation succeeded for the main manuscript and supplementary tables; the current author-complete main PDF has 12 pages and the supplementary PDF has 3 pages. The built-in editor compiler could not run because it returned `Unable to find standard directories for platform`; this is an environment limitation, not a source error.
-2. **Completed:** `texcount` reports 6,402 words in text, 132 words in headings and 320 words in captions/floats. Undefined-reference, citation and multiply-defined-label checks are clean.
+2. **Completed:** `texcount` reports 6,381 words in text, 132 words in headings and 320 words in captions/floats. Undefined-reference, citation and multiply-defined-label checks are clean.
 3. **Completed:** the final page-10 visual check contains the revised local CPU limitation and no stale Tesla/P100 wording. The regenerated v1.0.2 package contains 108 allowlisted files, credential scanning passes, every paper-grade per-seed JSON reports `device=cpu`, and the manifest hash for `paper-draft-r025.tex` matches the source.
 4. **Completed for the automatic portion of Phase 4:** `DCN投稿门槛核验_R034.md` records the official Elsevier serial metadata response and the attempted Guide for Authors retrieval. The dynamic ScienceDirect page returned HTTP 403, so its article-specific fields remain explicitly unconfirmed.
 5. **Partially completed author input:** supplied names, affiliations, first-author ORCID and provisional CRediT are recorded; corresponding-author designation, final contact choice, funding and acknowledgements remain open.

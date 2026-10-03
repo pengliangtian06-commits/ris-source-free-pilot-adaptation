@@ -10,7 +10,7 @@
 ## R033 最终验证状态（2026-10-03）
 
 - 主文 `paper-draft-r025.tex` 已用本地 `latexmk` 编译通过，作者信息版 PDF 为 12 页。
-- `texcount` 统计正文 6,402 词，标题 132 词，图注/浮动体 320 词，满足 6,000–10,000 词和 10–12 页目标。
+- `texcount` 统计正文 6,381 词，标题 132 词，图注/浮动体 320 词，满足 6,000–10,000 词和 10–12 页目标。
 - `supplementary_tables_r032.tex` 已强制重编译通过，生成 3 页补充表 PDF。
 - 已检查 PDF 文本、LaTeX 日志、交叉引用/引用和第 10 页版式；未发现 undefined reference/citation、旧 Tesla/P100 表述或凭据泄露。
 - 内置 `compile_latex_document` 因当前编辑器环境返回 `Unable to find standard directories for platform`，因此以本地成功编译结果作为可核验编译证据，源文件保持不变。
@@ -55,7 +55,7 @@
 - 编译 `supplementary_tables_r032.tex`，确认 S1–S3 与主文引用一致。
 - 用五张最终图重新运行 Nature figure alignment/collision QA。
 
-**验收：** 已通过。作者信息版主文 12 页、正文 6,402 词；图 4 不再声称有未展示的 held-out NMSE panel；图 5 使用五位小数，未隐藏小效应。
+**验收：** 已通过。作者信息版主文 12 页、正文 6,381 词；图 4 不再声称有未展示的 held-out NMSE panel；图 5 使用五位小数，未隐藏小效应。
 
 ### Phase 3：数据、统计与复现包（已完成）
 
