@@ -26,6 +26,12 @@ records, submission materials and CPU-loadable source/adapter model weights.
 - `REPRODUCTION_README_v1.0.3.md`: environment, rerun and weight-reload instructions.
 - `PUBLIC_RELEASE_NOTES_v1.0.3.md`: release-level change record.
 - `CITATION.cff`: machine-readable citation metadata.
+- `figures/graphical_abstract_physical_communication_submission_v1.0.3.*`:
+  submission-only graphical abstract exports prepared against the live
+  *Physical Communication* upload guidance. These files are post-release
+  submission materials and do not alter the immutable v1.0.3 archive.
+- `submission_materials_manifest_physical_communication_v1.0.3.json`: SHA-256
+  manifest for the current submission-only file set.
 
 ## Reproduction
 
@@ -64,3 +70,12 @@ to this exact release and the concept DOI when referring to the release family.
 
 The corresponding author for the manuscript is Changjiang Zhang
 (`zhangchangjiang@ccbupt.cn`).
+
+## Current submission status
+
+The manuscript is locally compiled at 12 pages with approximately 6,072 text
+words. The official public *Physical Communication* guide and OA/APC page have
+been checked, and the highlights and graphical abstract have passed local
+preflight. The venue remains a candidate until institution-authenticated JCR
+and CAS records, the author's logged-in Elsevier fields and the complete
+corresponding-author postal address are recorded.

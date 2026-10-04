@@ -1,6 +1,6 @@
 # Nature-style submission preflight for v1.0.3
 
-Verification date: 2026-10-03 (Asia/Taipei)
+Verification date: 2026-10-04 (Asia/Taipei)
 
 This is a Nature-style evidence-chain and submission-package audit applied to
 an Elsevier *Physical Communication* target. Nature guidance supplies claim,
@@ -60,13 +60,22 @@ instructions remain authoritative for exact fields.
 
 ## Build and package checks
 
-- Main PDF: 11 pages; 6,072 words in text, 132 in headings and 320 in
+- Main PDF: 12 pages; approximately 6,072 words in text, 132 in headings and 320 in
   captions/floats.
 - Supplementary tables PDF: 3 pages.
 - `latexmk` shell compilation: passed for both sources.
 - Built-in editor compiler: unavailable in this environment because it reports
   `Unable to find standard directories for platform`; this is recorded as an
   environment limitation.
+- Main-text availability material is split into Data availability, Code and
+  model availability, competing interests, Funding, Acknowledgements, CRediT
+  and generative-AI declaration blocks.
+- The submission-only graphical abstract uses the journal-recommended 1328:531
+  aspect ratio. Its 300-dpi PNG, editable SVG/PDF source and source script pass
+  panel alignment, text-font and collision audits. The immutable v1.0.3 release
+  artwork is retained separately.
+- The five highlights contain 55--73 characters each and satisfy the checked
+  85-character limit.
 - Weight verifier: 15/15 entries passed on CPU with `weights_only=True`.
 - ZIP: 4,132,213 bytes; `testzip()` passed; all 134 manifest entries match the
   archived ZIP bytes and hashes; ZIP credential scan passed.

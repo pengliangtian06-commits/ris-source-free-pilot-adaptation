@@ -2,7 +2,7 @@
 
 ## 投稿定位
 
-- **首选期刊：** *Physical Communication*（候选，分区证据待机构门户核验）
+- **首选期刊：** *Physical Communication*（候选，JCR/CAS 分区证据待机构门户核验）
 - **备选顺序：** AEÜ；*Digital Signal Processing*
 - **论文类型：** Original Research，最终选项以 Elsevier 投稿系统为准
 - **论文题目：** *Source-free pilot adaptation for RIS-assisted wideband MIMO channel estimation under explicit distribution shifts*
@@ -25,17 +25,17 @@ identity pilots 时，pilot-only adaptation 能否恢复冻结学习估计器在
 
 ## 版本发布
 
-1. v1.0.2 保持不变。
+1. v1.0.2 保持不变，v1.0.3 作为含权重的不可变版本。
 2. v1.0.3 增加三组 source-estimator 权重和四个 canonical shift 的 adapter 权重。
 3. 权重使用 CPU 可加载的 `state_dict` 与 JSON 元数据；代码 MIT，权重和论文材料 CC BY 4.0。
 4. 完成权重 reload、前向有限性、标签隔离、SHA-256、凭据扫描和 ZIP 完整性检查。
-5. 创建 GitHub `v1.0.3` release，Zenodo 已预留 DOI `10.5281/zenodo.23121462`；发布后核对记录并回写最终材料。
+5. GitHub `v1.0.3` release 已发布，Zenodo version DOI `10.5281/zenodo.23121462` 已公开；当前稿件只回写该已发布版本 DOI，不改写旧 tag 或归档。
 
 ## 投稿材料
 
-- 主文：12 页，正文约 6,381 词，保留完整证据链和失败单元。
-- Highlights：3--5 条，字符限制以投稿系统实时字段为准。
-- Graphical abstract：使用可编辑的内部设计稿，提交资格和 AI/图像政策以期刊页面确认。
+- 主文：12 页，正文约 6,072 词，保留完整证据链和失败单元。
+- Highlights：5 条，已逐条核验为 55--73 字符。
+- Graphical abstract：`figures/graphical_abstract_physical_communication_submission_v1.0.3.png`；1328:531 比例、300 dpi PNG，另有 SVG/PDF/TIFF 和源代码。
 - Cover letter：突出 RIS 宽带信道估计、source-free pilot adaptation、held-out evaluation、
   通信指标和失败边界。
 - Declarations：通信作者、无专项基金、无额外致谢、CRediT、AI-use、利益冲突和合成数据声明统一。
@@ -44,10 +44,12 @@ identity pilots 时，pilot-only adaptation 能否恢复冻结学习估计器在
 
 - [x] 权重导出与 CPU reload verifier 通过
 - [x] v1.0.3 包含 SHA-256 manifest 和许可证
-- [ ] GitHub tag/release `v1.0.3` 推送成功
-- [x] Zenodo v1.0.3 草稿已预留 DOI `10.5281/zenodo.23121462`\n- [ ] 发布 Zenodo 草稿并核对公开版本记录
-- [ ] Physical Communication 投稿指南和系统字段逐项确认
+- [x] GitHub tag/release `v1.0.3` 推送并公开
+- [x] Zenodo v1.0.3 已公开，版本 DOI `10.5281/zenodo.23121462`
+- [x] Physical Communication 官方投稿指南与 OA/APC 页面已核验
+- [ ] Elsevier 个性化投稿系统字段逐项确认（需作者注册/登录）
 - [ ] Clarivate JCR/MJL 与 CAS 机构证据完成
-- [ ] 干净环境编译主文和补充材料，主文 10--12 页、正文 6,000--10,000 词
+- [x] 本地干净编译主文和补充材料，主文 12 页、正文约 6,072 词
+- [ ] 补齐通信作者完整邮政地址并由作者最终确认
 
-在未完成最后三项之前，期刊状态保持“候选”，不写成“可提交”。
+在机构 JCR/CAS 证据、个性化系统字段和作者确认完成前，期刊状态保持“候选”，不写成“可提交”。

@@ -25,8 +25,10 @@ is retained as a negative control. The paper therefore presents a reproducible
 benchmark and failure analysis rather than a claim of universal superiority.
 
 The release includes the synthetic generator, fixed seeds, CPU result artifacts,
-verification scripts and CPU-loadable source/adapter weights. We state explicitly
-that the work does not establish measured-channel validity. The authors declare
+verification scripts and CPU-loadable source/adapter weights. The v1.0.3 release
+is archived at Zenodo under version DOI
+<https://doi.org/10.5281/zenodo.23121462>. We state explicitly that the work
+does not establish measured-channel validity. The authors declare
 no competing interests, no specific grant funding and no additional
 acknowledgements. AI-assisted tools supported workflow organization and language
 editing; the authors designed the study, controlled the experiments and verified

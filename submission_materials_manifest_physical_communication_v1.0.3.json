@@ -1,0 +1,109 @@
+{
+  "schema": "physical-communication-submission-materials/1.0",
+  "generated_on": "2026-10-04",
+  "release_reference": "v1.0.3",
+  "version_doi": "10.5281/zenodo.23121462",
+  "repository": "https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation",
+  "status": "ready_with_author_checks",
+  "immutable_release_unchanged": true,
+  "missing": [],
+  "files": [
+    {
+      "path": "paper-draft-r025.tex",
+      "bytes": 50144,
+      "sha256": "db6311392d7697a6162b5dcfdb3aa11b0f8185e56bd62e6f420107659f35ad0f"
+    },
+    {
+      "path": "paper-draft-r025.pdf",
+      "bytes": 603825,
+      "sha256": "f0353b75a51e06e164e6c5de1cea1e8393c999d65fd6b36a73453029db95d107"
+    },
+    {
+      "path": "supplementary_tables_r032.tex",
+      "bytes": 760,
+      "sha256": "356de1fcfa5167b9309bb322ff064c0fae92cfa5442ec0d5ec0ce563b6d60ed2"
+    },
+    {
+      "path": "supplementary_tables_r032.pdf",
+      "bytes": 77687,
+      "sha256": "c9ae4cc938c990cc88590fa9542b43f355a8b064407132ee06eada80da697930"
+    },
+    {
+      "path": "cover_letter_physical_communication_v1.0.3.md",
+      "bytes": 2435,
+      "sha256": "425555f92c382e1ae0090025d66fb107d498b5b911b7500316db2f2cefe223e8"
+    },
+    {
+      "path": "highlights_physical_communication_v1.0.3.md",
+      "bytes": 1019,
+      "sha256": "63115448502d163aa0f3eb6b8ab12c61c865aa50fbfe044b9cd8e75b8f4c4592"
+    },
+    {
+      "path": "submission_declarations_v1.0.3.md",
+      "bytes": 2240,
+      "sha256": "e9222bde91a3722f92a2e9b130c418b2914cb1d0274d8dfd8ee7010599c7c395"
+    },
+    {
+      "path": "title_page_physical_communication_v1.0.3.md",
+      "bytes": 2901,
+      "sha256": "e487f6e2dacbc18fa3c569624f3ccabf5f149fe0dd221852806ba3868f34ab05"
+    },
+    {
+      "path": "figures/graphical_abstract_physical_communication_submission_v1.0.3.py",
+      "bytes": 6495,
+      "sha256": "40819059536356b56cfdd85ab564150cd3be7deb12da6d6e158971fa3d4d2e18"
+    },
+    {
+      "path": "figures/graphical_abstract_physical_communication_submission_v1.0.3.png",
+      "bytes": 177595,
+      "sha256": "432a3f0af1ec82fe44558e84abeec303fce23ddd8574297a845e5f509dad082f"
+    },
+    {
+      "path": "figures/graphical_abstract_physical_communication_submission_v1.0.3.pdf",
+      "bytes": 54943,
+      "sha256": "408ce307fa57130edde3c195f1398b531d87ceb1a770f994d2080b5491904853"
+    },
+    {
+      "path": "figures/graphical_abstract_physical_communication_submission_v1.0.3.svg",
+      "bytes": 17377,
+      "sha256": "411dfda9cfa5fb8c1a403934c118c4c0cf685741c91bb8a79db24463e75c57cd"
+    },
+    {
+      "path": "figures/graphical_abstract_physical_communication_submission_v1.0.3.tiff",
+      "bytes": 29860046,
+      "sha256": "6c9eaa74e16ee5f9720dab00519573075ce5d6c807fd49075ad915353812bb70"
+    },
+    {
+      "path": "Physical Communication投稿计划_v1.0.3.md",
+      "bytes": 3496,
+      "sha256": "7b0b743cc2c764ea4b5bdec59c93b324c21be7d84ced83244374c19fa37ff284"
+    },
+    {
+      "path": "Physical Communication投稿门槛核验_v1.0.3.md",
+      "bytes": 2853,
+      "sha256": "3751862c08097e38747cb9a19bc822a8ece2ce18519be4a584f6add6d5c559a6"
+    },
+    {
+      "path": "submission_checklist_physical_communication_v1.0.3.md",
+      "bytes": 2262,
+      "sha256": "1b839e29c8d161a109ac524cea88c1567211b3af25e034c410b1eb6a427855f3"
+    },
+    {
+      "path": "nature_submission_preflight_v1.0.3.md",
+      "bytes": 4804,
+      "sha256": "c109c8e2d15019ac721b78442a510ed78626a8f7a85fe28554688af3318f248d"
+    },
+    {
+      "path": "venue_live_verification_20261004.md",
+      "bytes": 3737,
+      "sha256": "39572def80675c021a6743da6ea8251a08ebfec163634b1695675da3bc070494"
+    }
+  ],
+  "open_gates": [
+    "institution-authenticated Clarivate JCR evidence",
+    "institution-authenticated CAS evidence",
+    "corresponding-author Elsevier account and personalized system fields",
+    "complete corresponding-author postal address",
+    "final author confirmation before submission"
+  ]
+}

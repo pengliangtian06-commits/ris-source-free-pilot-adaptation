@@ -7,10 +7,9 @@ the scripts in the v1.0.3 reproducibility package. The generator, fixed seeds,
 JSON result summaries, tables, figures, CPU-loadable model weights and
 verification manifest are available at
 <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation/tree/v1.0.3>.
-The tagged release is archived at Zenodo under
-`10.5281/zenodo.23121462`; the release-family concept DOI is
-<https://doi.org/10.5281/zenodo.23118757>. The package contains synthetic data
-and does not claim measured-channel data availability.
+The tagged release is archived at Zenodo under version DOI
+`10.5281/zenodo.23121462`. The package contains synthetic data and does not
+claim measured-channel data availability.
 
 ## Code and model availability
 
