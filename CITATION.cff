@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this release, please cite the Zenodo concept record and the tagged repository release."
+message: "For the exact v1.0.3 release, please cite the published Zenodo version DOI and the tagged repository release."
 type: software
 title: "Source-Free Pilot Adaptation for RIS-Assisted Wideband MIMO"
 abstract: "Reproducibility release for a benchmark of source-free pilot adaptation under explicit wideband RIS distribution shifts."

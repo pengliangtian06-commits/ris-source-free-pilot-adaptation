@@ -63,10 +63,9 @@ target CSI labels or private host details are stored in the weights.
 
 The public repository is
 <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>.
-The current release tag is `v1.0.3`. Its version DOI is
-<https://doi.org/10.5281/zenodo.23121462>. The release-family concept DOI is
-<https://doi.org/10.5281/zenodo.23118757>. Cite the version DOI when referring
-to this exact release and the concept DOI when referring to the release family.
+The current release tag is `v1.0.3`. Its published version DOI is
+<https://doi.org/10.5281/zenodo.23121462>. Cite this version DOI when referring
+to the exact release used for the manuscript and its reproducibility package.
 
 The corresponding author for the manuscript is Changjiang Zhang
 (`zhangchangjiang@ccbupt.cn`).
