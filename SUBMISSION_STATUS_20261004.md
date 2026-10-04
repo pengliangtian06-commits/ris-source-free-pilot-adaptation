@@ -13,6 +13,9 @@ Updated: 2026-10-04 (Asia/Taipei)
 - GitHub `main` contains the current submission records.
 - Immutable release tag: `v1.0.3`.
 - Zenodo version DOI: `10.5281/zenodo.23121462`.
+- Data/code statement audit: synthetic generator, result artifacts, figures,
+  tables and CPU-loadable weights are mapped to the GitHub v1.0.3 tree and the
+  version DOI; no measured-channel dataset is implied.
 
 ## Author or institution required
 
