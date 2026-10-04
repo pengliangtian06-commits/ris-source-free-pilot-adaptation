@@ -47,6 +47,7 @@ identity pilots 时，pilot-only adaptation 能否恢复冻结学习估计器在
 - [x] GitHub tag/release `v1.0.3` 推送并公开
 - [x] Zenodo v1.0.3 已公开，版本 DOI `10.5281/zenodo.23121462`
 - [x] Physical Communication 官方投稿指南与 OA/APC 页面已核验
+- [x] v1.0.3 Zenodo DOI、权重、manifest、ZIP 和本地编译已复核
 - [ ] Elsevier 个性化投稿系统字段逐项确认（需作者注册/登录）
 - [ ] Clarivate JCR/MJL 与 CAS 机构证据完成
 - [x] 本地干净编译主文和补充材料，主文 12 页、正文约 6,072 词
