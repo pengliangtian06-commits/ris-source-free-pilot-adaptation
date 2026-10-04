@@ -28,4 +28,5 @@ manifest does not modify the immutable v1.0.3 release archive.
 `ready_with_author_checks`. The scientific package, model-weight checks, public
 release and official public guide checks are complete. Submission remains
 blocked until institutional JCR/CAS evidence, the author's logged-in system
-fields, the complete postal address and final author confirmation are recorded.
+fields, confirmation of the candidate postal address and final author approval
+are recorded.
