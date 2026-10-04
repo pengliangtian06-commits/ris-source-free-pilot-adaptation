@@ -52,7 +52,6 @@ instructions remain authoritative for exact fields.
 - Synthetic generator, fixed seeds, result artifacts, source code and CPU
   state-dict weights are mapped to the GitHub `v1.0.3` tree and Zenodo version
   DOI `10.5281/zenodo.23121462`.
-- Concept DOI: `10.5281/zenodo.23118757`.
 - Code is MIT; manuscript, figures, tables, generated artifacts and weights
   are CC BY 4.0. Zenodo displays both licenses.
 - Target CSI labels are scoring-only and are excluded from adaptation.

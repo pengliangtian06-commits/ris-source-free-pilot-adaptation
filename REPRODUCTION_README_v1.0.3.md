@@ -51,5 +51,4 @@ tables, generated artifacts and model weights are CC BY 4.0.
 Repository: <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>
 
 Release tag: `v1.0.3`  
-Zenodo version DOI: `10.5281/zenodo.23121462`  
-Concept DOI: <https://doi.org/10.5281/zenodo.23118757>
+Published Zenodo version DOI: `10.5281/zenodo.23121462`

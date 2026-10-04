@@ -1,6 +1,6 @@
 # v1.0.3 post-release status
 
-Verification date: 2026-10-03 (Asia/Taipei)
+Verification date: 2026-10-04 (Asia/Taipei)
 
 This file records facts verified after the immutable `v1.0.3` ZIP and tag were
 created. It is intentionally separate from the archived ZIP, whose manifest

@@ -38,8 +38,7 @@ BS--RIS--UE channels and does not claim measured-channel validation.
 
 - Repository: <https://github.com/pengliangtian06-commits/ris-source-free-pilot-adaptation>
 - Release tag: `v1.0.3`
-- Zenodo version DOI: `10.5281/zenodo.23121462`
-- Release-family concept DOI: <https://doi.org/10.5281/zenodo.23118757>
+- Published Zenodo version DOI: <https://doi.org/10.5281/zenodo.23121462>
 
-The DOI was reserved in the Zenodo v1.0.3 draft and will be registered when the
-upload is published. No DOI is inferred from the GitHub tag.
+The version DOI resolves to the public Zenodo record and identifies the exact
+v1.0.3 package. The GitHub tag and the Zenodo record are cross-linked.
