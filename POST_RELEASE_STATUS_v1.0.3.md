@@ -13,10 +13,9 @@ and release notes are retained unchanged.
 - Git tag `v1.0.3` dereferences to commit `763755aebd288a2e4fd9a523d0c446d0cf0dd624`.
 - GitHub `main` contains post-release verification records; the tagged release
   tree remains immutable.
-- The post-release submission-material update is recorded on `main` at commits
-  `ce01a9464ad3d62ef9133c58711142829c5d1fc6` and the later address-evidence
-  update `25f7e0716fd6dae22f0be8ff79c3d68a01c2491d`; neither rewrites the tag
-  or Zenodo archive.
+- The post-release submission-material updates are recorded on `main` at
+  `ce01a9464ad3d62ef9133c58711142829c5d1fc6`, `25f7e0716fd6dae22f0be8ff79c3d68a01c2491d`,
+  and the later verification commits. None rewrites the tag or Zenodo archive.
 - GitHub asset: `submission_package_v1.0.3.zip`, 4,132,213 bytes,
   SHA-256 `4c15cd3907b1bed0988021ffc6ead620be4c1276a423b917df3f6e089c764fa9`.
 
@@ -68,6 +67,15 @@ and release notes are retained unchanged.
    submission audit. The built-in editor compiler remains unavailable in this
    environment, so the journal remains a candidate until the institutional and
    live-system records above are supplied.
+
+## Latest local verification
+
+- Current `main` commit: `4da613ee3e15770dc82bde07426dfcefd1222bfe`.
+- Elsevier serial metadata endpoint returned HTTP 200.
+- Version DOI resolved with HTTP 200.
+- Weight verifier returned `verified_entries: 15` and `status: pass`.
+- Submission manifest returned 18 files with zero hash mismatches.
+- Release ZIP returned `testzip() = None`.
 
 The current submission package cites the published version DOI
 `10.5281/zenodo.23121462` as its sole Zenodo identifier. The older release note
