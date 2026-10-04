@@ -97,6 +97,16 @@
       "path": "venue_live_verification_20261004.md",
       "bytes": 3737,
       "sha256": "39572def80675c021a6743da6ea8251a08ebfec163634b1695675da3bc070494"
+    },
+    {
+      "path": "author_action_packet_physical_communication_v1.0.3.md",
+      "bytes": 1631,
+      "sha256": "997aeed9d4fbcd691a6927ff8797efe69f7ce741fc28aefa2773a37f94da31c3"
+    },
+    {
+      "path": "pre_submission_field_audit_20261004.md",
+      "bytes": 1705,
+      "sha256": "4f8dfed06a12fabad758c178b62b17272bb52048671822faf0afab578fa5b513"
     }
   ],
   "open_gates": [
