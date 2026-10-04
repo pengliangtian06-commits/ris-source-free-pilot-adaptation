@@ -13,9 +13,10 @@ and release notes are retained unchanged.
 - Git tag `v1.0.3` dereferences to commit `763755aebd288a2e4fd9a523d0c446d0cf0dd624`.
 - GitHub `main` contains post-release verification records; the tagged release
   tree remains immutable.
-- The post-release submission-material update is recorded on `main` at commit
-  `ce01a9464ad3d62ef9133c58711142829c5d1fc6`; it does not rewrite the tag or
-  Zenodo archive.
+- The post-release submission-material update is recorded on `main` at commits
+  `ce01a9464ad3d62ef9133c58711142829c5d1fc6` and the later address-evidence
+  update `25f7e0716fd6dae22f0be8ff79c3d68a01c2491d`; neither rewrites the tag
+  or Zenodo archive.
 - GitHub asset: `submission_package_v1.0.3.zip`, 4,132,213 bytes,
   SHA-256 `4c15cd3907b1bed0988021ffc6ead620be4c1276a423b917df3f6e089c764fa9`.
 
