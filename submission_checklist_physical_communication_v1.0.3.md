@@ -19,6 +19,8 @@
 | Postal address | candidate located; author confirmation needed | Official institution page lists Kangzhuang Avenue, Kangzhuang Town, Yanqing District, Beijing 102101, China; confirm that this is the address to use |
 | Funding and acknowledgements | fixed | no specific grant; no additional acknowledgements |
 
+The author-only actions are collected in `author_action_packet_physical_communication_v1.0.3.md`.
+
 The current submission-only file set and SHA-256 values are recorded in
 `submission_materials_manifest_physical_communication_v1.0.3.json`. This
 manifest does not modify the immutable v1.0.3 release archive.
