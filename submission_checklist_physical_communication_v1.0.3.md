@@ -16,7 +16,7 @@
 | CAS evidence | pending | institutional CAS portal |
 | Guide and system fields | partly verified | official guide/OA pages checked; author account and personalized upload fields remain |
 | Corresponding author | fixed | Changjiang Zhang, `zhangchangjiang@ccbupt.cn` |
-| Postal address | author input needed | complete corresponding-author postal address required by title-page metadata |
+| Postal address | candidate located; author confirmation needed | Official institution page lists Kangzhuang Avenue, Kangzhuang Town, Yanqing District, Beijing 102101, China; confirm that this is the address to use |
 | Funding and acknowledgements | fixed | no specific grant; no additional acknowledgements |
 
 The current submission-only file set and SHA-256 values are recorded in

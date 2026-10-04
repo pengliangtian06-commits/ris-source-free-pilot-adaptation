@@ -57,7 +57,13 @@ and release notes are retained unchanged.
 2. Verify the live Elsevier guide and submission-system fields, including
    article type, abstract/highlights limits, graphical abstract, declarations,
    AI-use statement, ORCID/CRediT and APC.
-3. Keep the shell compilation and Nature-style preflight records with the
+3. Confirm the corresponding-author postal address. The institution's official
+   website lists Beijing University of Posts and Telecommunications Century
+   College, Kangzhuang Avenue, Kangzhuang Town, Yanqing District, Beijing
+   102101, China. The evidence and candidate rendering are recorded in
+   `author_address_evidence_20261004.md`; this remains an author confirmation
+   item.
+4. Keep the shell compilation and Nature-style preflight records with the
    submission audit. The built-in editor compiler remains unavailable in this
    environment, so the journal remains a candidate until the institutional and
    live-system records above are supplied.

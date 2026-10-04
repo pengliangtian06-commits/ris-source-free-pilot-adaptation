@@ -45,8 +45,8 @@
     },
     {
       "path": "title_page_physical_communication_v1.0.3.md",
-      "bytes": 2901,
-      "sha256": "e487f6e2dacbc18fa3c569624f3ccabf5f149fe0dd221852806ba3868f34ab05"
+      "bytes": 3339,
+      "sha256": "eba656d352e0df5e8656caa8efbd3d77d5d87c91e9c83816a5cc3a0db4cb84ed"
     },
     {
       "path": "figures/graphical_abstract_physical_communication_submission_v1.0.3.py",
@@ -75,18 +75,18 @@
     },
     {
       "path": "Physical Communication投稿计划_v1.0.3.md",
-      "bytes": 3496,
-      "sha256": "7b0b743cc2c764ea4b5bdec59c93b324c21be7d84ced83244374c19fa37ff284"
+      "bytes": 3544,
+      "sha256": "5863f987351d3229a11e4bf02356a3cd1698d0d7382d8080a7de3922d175dff1"
     },
     {
       "path": "Physical Communication投稿门槛核验_v1.0.3.md",
-      "bytes": 2853,
-      "sha256": "3751862c08097e38747cb9a19bc822a8ece2ce18519be4a584f6add6d5c559a6"
+      "bytes": 3060,
+      "sha256": "eb3dae624a7b508448abb9e957ab236d6522c462d240d04af359151507c2f587"
     },
     {
       "path": "submission_checklist_physical_communication_v1.0.3.md",
-      "bytes": 2262,
-      "sha256": "1b839e29c8d161a109ac524cea88c1567211b3af25e034c410b1eb6a427855f3"
+      "bytes": 2360,
+      "sha256": "45d87e3972a5b5654deba53028f4c177c35cc7d758b449d2cae56896d91e8110"
     },
     {
       "path": "nature_submission_preflight_v1.0.3.md",
@@ -103,7 +103,7 @@
     "institution-authenticated Clarivate JCR evidence",
     "institution-authenticated CAS evidence",
     "corresponding-author Elsevier account and personalized system fields",
-    "complete corresponding-author postal address",
+    "confirmation of the candidate corresponding-author postal address",
     "final author confirmation before submission"
   ]
 }

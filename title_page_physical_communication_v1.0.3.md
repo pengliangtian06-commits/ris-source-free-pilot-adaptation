@@ -25,7 +25,13 @@ The postal address placeholder must be resolved by the authors.
 Changjiang Zhang  \
 Beijing University of Posts and Telecommunications Century College  \
 Email: `zhangchangjiang@ccbupt.cn`  \
-**Postal address:** `[AUTHOR_INPUT_NEEDED: complete street address, city, postal code, country]`
+**Postal address (candidate from the institution's official website, author confirmation required):**
+Beijing University of Posts and Telecommunications Century College, Kangzhuang Avenue,
+Kangzhuang Town, Yanqing District, Beijing 102101, China.
+
+Source checked: <https://www.ccbupt.cn/lxwm/xydt/index.htm> (accessed 2026-10-04).
+This source establishes the institution's public mailing address; it does not by itself
+confirm that the corresponding author wants this address used for the submission.
 
 ## Contributions and declarations
 
@@ -50,7 +56,7 @@ Email: `zhangchangjiang@ccbupt.cn`  \
 
 ## Author confirmation still needed
 
-- Complete postal address for the corresponding author.
+- Confirm whether the candidate institutional postal address above is the address to use.
 - Final article-type label and all personalized Elsevier upload fields.
 - Confirmation that all authors approve the final identified manuscript and
   submission.
